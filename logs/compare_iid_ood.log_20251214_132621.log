@@ -1,0 +1,99 @@
+[2025-12-14 13:26:21] [INFO] ================================================================================
+[2025-12-14 13:26:21] [INFO] IID (NLGraph) vs OOD (Facebook) Comparison
+[2025-12-14 13:26:21] [INFO] ================================================================================
+[2025-12-14 13:26:21] [INFO] 
+Note: Facebook results are estimated from previous runs
+[2025-12-14 13:26:21] [INFO] For accurate comparison, re-run Facebook evaluation scripts
+
+[2025-12-14 13:26:21] [INFO] 
+================================================================================
+[2025-12-14 13:26:21] [INFO] NLGRAPH (IID) ANALYSIS
+[2025-12-14 13:26:21] [INFO] ================================================================================
+[2025-12-14 13:26:21] [INFO] 
+### Performance by Model:
+[2025-12-14 13:26:21] [INFO] 
+llama3.2-1b: 21.1% average
+[2025-12-14 13:26:21] [INFO]   bipartite_matching: 6.3%
+[2025-12-14 13:26:21] [INFO]   connectivity: 49.5%
+[2025-12-14 13:26:21] [INFO]   maximum_flow: 2.3%
+[2025-12-14 13:26:21] [INFO]   shortest_path: 26.3%
+[2025-12-14 13:26:21] [INFO] 
+phi3-medium: 22.9% average
+[2025-12-14 13:26:21] [INFO]   bipartite_matching: 6.7%
+[2025-12-14 13:26:21] [INFO]   connectivity: 67.5%
+[2025-12-14 13:26:21] [INFO]   maximum_flow: 1.7%
+[2025-12-14 13:26:21] [INFO]   shortest_path: 15.6%
+[2025-12-14 13:26:21] [INFO] 
+qwen2.5-3b: 23.0% average
+[2025-12-14 13:26:21] [INFO]   bipartite_matching: 9.1%
+[2025-12-14 13:26:21] [INFO]   connectivity: 62.5%
+[2025-12-14 13:26:21] [INFO]   maximum_flow: 4.0%
+[2025-12-14 13:26:21] [INFO]   shortest_path: 16.1%
+[2025-12-14 13:26:21] [INFO] 
+### Performance by Task:
+[2025-12-14 13:26:21] [INFO] 
+bipartite_matching: 7.4% average
+[2025-12-14 13:26:21] [INFO]   llama3.2-1b: 6.3%
+[2025-12-14 13:26:21] [INFO]   phi3-medium: 6.7%
+[2025-12-14 13:26:21] [INFO]   qwen2.5-3b: 9.1%
+[2025-12-14 13:26:21] [INFO] 
+connectivity: 59.8% average
+[2025-12-14 13:26:21] [INFO]   llama3.2-1b: 49.5%
+[2025-12-14 13:26:21] [INFO]   phi3-medium: 67.5%
+[2025-12-14 13:26:21] [INFO]   qwen2.5-3b: 62.5%
+[2025-12-14 13:26:21] [INFO] 
+maximum_flow: 2.7% average
+[2025-12-14 13:26:21] [INFO]   llama3.2-1b: 2.3%
+[2025-12-14 13:26:21] [INFO]   phi3-medium: 1.7%
+[2025-12-14 13:26:21] [INFO]   qwen2.5-3b: 4.0%
+[2025-12-14 13:26:21] [INFO] 
+shortest_path: 19.3% average
+[2025-12-14 13:26:22] [INFO]   llama3.2-1b: 26.3%
+[2025-12-14 13:26:22] [INFO]   phi3-medium: 15.6%
+[2025-12-14 13:26:22] [INFO]   qwen2.5-3b: 16.1%
+[2025-12-14 13:26:22] [INFO] 
+### Performance by Prompt Type:
+[2025-12-14 13:26:22] [INFO] 
+zero_shot: 21.4% average
+[2025-12-14 13:26:22] [INFO] 
+cot: 21.7% average
+[2025-12-14 13:26:22] [INFO] 
+cot_hidden: 23.9% average
+[2025-12-14 13:26:22] [INFO] 
+================================================================================
+[2025-12-14 13:26:22] [INFO] KEY INSIGHTS
+[2025-12-14 13:26:22] [INFO] ================================================================================
+[2025-12-14 13:26:22] [INFO] 
+1. Task Difficulty Ranking:
+[2025-12-14 13:26:22] [INFO]    1. connectivity: 59.8%
+[2025-12-14 13:26:22] [INFO]    2. shortest_path: 19.3%
+[2025-12-14 13:26:22] [INFO]    3. bipartite_matching: 7.4%
+[2025-12-14 13:26:22] [INFO]    4. maximum_flow: 2.7%
+[2025-12-14 13:26:22] [INFO] 
+2. Model Performance Ranking:
+[2025-12-14 13:26:22] [INFO]    1. qwen2.5-3b: 23.0%
+[2025-12-14 13:26:22] [INFO]    2. phi3-medium: 22.9%
+[2025-12-14 13:26:22] [INFO]    3. llama3.2-1b: 21.1%
+[2025-12-14 13:26:22] [INFO] 
+3. Prompt Type Impact:
+[2025-12-14 13:26:22] [INFO]    1. cot_hidden: 23.9%
+[2025-12-14 13:26:22] [INFO]    2. cot: 21.7%
+[2025-12-14 13:26:22] [INFO]    3. zero_shot: 21.4%
+[2025-12-14 13:26:22] [INFO] 
+4. Top 5 Best Combinations:
+[2025-12-14 13:26:22] [INFO]    1. phi3-medium/connectivity/zero_shot: 69.3%
+[2025-12-14 13:26:22] [INFO]    2. phi3-medium/connectivity/cot_hidden: 68.2%
+[2025-12-14 13:26:22] [INFO]    3. phi3-medium/connectivity/cot: 65.0%
+[2025-12-14 13:26:22] [INFO]    4. qwen2.5-3b/connectivity/cot: 64.7%
+[2025-12-14 13:26:22] [INFO]    5. qwen2.5-3b/connectivity/cot_hidden: 63.3%
+[2025-12-14 13:26:22] [INFO] 
+5. Bottom 5 Worst Combinations:
+[2025-12-14 13:26:22] [INFO]    1. llama3.2-1b/maximum_flow/cot: 0.0%
+[2025-12-14 13:26:22] [INFO]    2. phi3-medium/maximum_flow/zero_shot: 0.0%
+[2025-12-14 13:26:22] [INFO]    3. phi3-medium/maximum_flow/cot_hidden: 1.7%
+[2025-12-14 13:26:22] [INFO]    4. qwen2.5-3b/maximum_flow/cot: 1.7%
+[2025-12-14 13:26:22] [INFO]    5. llama3.2-1b/maximum_flow/cot_hidden: 3.4%
+[2025-12-14 13:26:22] [INFO] 
+================================================================================
+[2025-12-14 13:26:22] [INFO] ANALYSIS COMPLETE
+[2025-12-14 13:26:22] [INFO] ================================================================================

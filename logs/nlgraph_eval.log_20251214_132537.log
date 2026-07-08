@@ -1,0 +1,193 @@
+[2025-12-14 13:25:37] [INFO] ================================================================================
+[2025-12-14 13:25:37] [INFO] NLGraph Evaluation - All Tasks
+[2025-12-14 13:25:37] [INFO] ================================================================================
+[2025-12-14 13:25:37] [INFO] Found 36 NLGraph result files
+[2025-12-14 13:25:37] [INFO] 
+llama3.2-1b/bipartite_matching/cot:
+[2025-12-14 13:25:37] [INFO]   Accuracy: 4.8% (4/84)
+[2025-12-14 13:25:37] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:37] [INFO] 
+llama3.2-1b/bipartite_matching/cot_hidden:
+[2025-12-14 13:25:37] [INFO]   Accuracy: 6.0% (5/84)
+[2025-12-14 13:25:37] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:37] [INFO] 
+llama3.2-1b/bipartite_matching/zero_shot:
+[2025-12-14 13:25:37] [INFO]   Accuracy: 8.3% (7/84)
+[2025-12-14 13:25:37] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/connectivity/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 51.8% (192/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/connectivity/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 48.2% (179/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/connectivity/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 48.5% (180/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/maximum_flow/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/maximum_flow/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 3.4% (2/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/maximum_flow/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 3.4% (2/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/shortest_path/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 32.8% (21/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/64)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/shortest_path/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 23.4% (15/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/64)
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b/shortest_path/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 22.6% (28/124)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/124)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/bipartite_matching/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 3.6% (3/84)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/bipartite_matching/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 8.3% (7/84)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/bipartite_matching/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 8.3% (7/84)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/connectivity/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 65.0% (241/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/connectivity/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 68.2% (253/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/connectivity/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 69.3% (257/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/maximum_flow/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 3.4% (2/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 1.7% (1/58)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/maximum_flow/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 1.7% (1/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 3.4% (2/58)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/maximum_flow/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 3.4% (2/58)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/shortest_path/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 10.9% (7/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 1.6% (1/64)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/shortest_path/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 17.2% (11/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 3.1% (2/64)
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium/shortest_path/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 18.8% (12/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 1.6% (1/64)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/bipartite_matching/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 7.1% (6/84)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/bipartite_matching/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 13.1% (11/84)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/bipartite_matching/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 7.1% (6/84)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/84)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/connectivity/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 64.7% (240/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/connectivity/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 63.3% (235/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/connectivity/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 59.6% (221/371)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/371)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/maximum_flow/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 1.7% (1/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/maximum_flow/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 5.2% (3/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/maximum_flow/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 5.2% (3/58)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/58)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/shortest_path/cot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 14.1% (9/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/64)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/shortest_path/cot_hidden:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 28.1% (18/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/64)
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b/shortest_path/zero_shot:
+[2025-12-14 13:25:38] [INFO]   Accuracy: 6.2% (4/64)
+[2025-12-14 13:25:38] [INFO]   Invalid: 0.0% (0/64)
+[2025-12-14 13:25:38] [INFO] 
+✓ Saved summary to results/nlgraph_summary.csv
+[2025-12-14 13:25:38] [INFO] 
+================================================================================
+[2025-12-14 13:25:38] [INFO] SUMMARY BY MODEL
+[2025-12-14 13:25:38] [INFO] ================================================================================
+[2025-12-14 13:25:38] [INFO] 
+llama3.2-1b:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 21.1%
+[2025-12-14 13:25:38] [INFO]   Average Invalid: 0.0%
+[2025-12-14 13:25:38] [INFO]   Experiments: 12
+[2025-12-14 13:25:38] [INFO] 
+phi3-medium:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 22.9%
+[2025-12-14 13:25:38] [INFO]   Average Invalid: 1.2%
+[2025-12-14 13:25:38] [INFO]   Experiments: 12
+[2025-12-14 13:25:38] [INFO] 
+qwen2.5-3b:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 23.0%
+[2025-12-14 13:25:38] [INFO]   Average Invalid: 0.0%
+[2025-12-14 13:25:38] [INFO]   Experiments: 12
+[2025-12-14 13:25:38] [INFO] 
+================================================================================
+[2025-12-14 13:25:38] [INFO] SUMMARY BY TASK
+[2025-12-14 13:25:38] [INFO] ================================================================================
+[2025-12-14 13:25:38] [INFO] 
+bipartite_matching:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 7.4%
+[2025-12-14 13:25:38] [INFO]   Models: 3
+[2025-12-14 13:25:38] [INFO] 
+connectivity:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 59.8%
+[2025-12-14 13:25:38] [INFO]   Models: 3
+[2025-12-14 13:25:38] [INFO] 
+maximum_flow:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 2.7%
+[2025-12-14 13:25:38] [INFO]   Models: 3
+[2025-12-14 13:25:38] [INFO] 
+shortest_path:
+[2025-12-14 13:25:38] [INFO]   Average Accuracy: 19.3%
+[2025-12-14 13:25:38] [INFO]   Models: 3
+[2025-12-14 13:25:38] [INFO] 
+================================================================================
+[2025-12-14 13:25:38] [INFO] EVALUATION COMPLETE
+[2025-12-14 13:25:38] [INFO] ================================================================================

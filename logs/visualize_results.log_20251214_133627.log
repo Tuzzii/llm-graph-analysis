@@ -1,0 +1,155 @@
+[2025-12-14 13:36:27] [INFO] ================================================================================
+[2025-12-14 13:36:27] [INFO] NLGraph Results Visualization
+[2025-12-14 13:36:27] [INFO] ================================================================================
+[2025-12-14 13:36:27] [INFO] 
+### Table 1: Accuracy by Model × Task
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] 
+llama3.2-1b:
+[2025-12-14 13:36:27] [INFO]   bipartite_matching  :   6.3% 
+[2025-12-14 13:36:27] [INFO]   connectivity        :  49.5% ⭐⭐
+[2025-12-14 13:36:27] [INFO]   maximum_flow        :   2.3% 
+[2025-12-14 13:36:27] [INFO]   shortest_path       :  26.3% ⭐
+[2025-12-14 13:36:27] [INFO] 
+phi3-medium:
+[2025-12-14 13:36:27] [INFO]   bipartite_matching  :   6.7% 
+[2025-12-14 13:36:27] [INFO]   connectivity        :  67.5% ⭐⭐⭐
+[2025-12-14 13:36:27] [INFO]   maximum_flow        :   1.7% 
+[2025-12-14 13:36:27] [INFO]   shortest_path       :  15.6% 
+[2025-12-14 13:36:27] [INFO] 
+qwen2.5-3b:
+[2025-12-14 13:36:27] [INFO]   bipartite_matching  :   9.1% 
+[2025-12-14 13:36:27] [INFO]   connectivity        :  62.5% ⭐⭐⭐
+[2025-12-14 13:36:27] [INFO]   maximum_flow        :   4.0% 
+[2025-12-14 13:36:27] [INFO]   shortest_path       :  16.1% 
+[2025-12-14 13:36:27] [INFO] 
+================================================================================
+[2025-12-14 13:36:27] [INFO] ### Table 2: Accuracy by Task × Prompt Type
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] 
+bipartite_matching:
+[2025-12-14 13:36:27] [INFO]   cot            :   5.2%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :   9.1%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :   7.9%
+[2025-12-14 13:36:27] [INFO] 
+connectivity:
+[2025-12-14 13:36:27] [INFO]   cot            :  60.5%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :  59.9%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :  59.1%
+[2025-12-14 13:36:27] [INFO] 
+maximum_flow:
+[2025-12-14 13:36:27] [INFO]   cot            :   1.7%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :   3.4%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :   2.9%
+[2025-12-14 13:36:27] [INFO] 
+shortest_path:
+[2025-12-14 13:36:27] [INFO]   cot            :  19.3%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :  22.9%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :  15.9%
+[2025-12-14 13:36:27] [INFO] 
+================================================================================
+[2025-12-14 13:36:27] [INFO] ### Table 3: Accuracy by Model × Prompt Type
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] 
+llama3.2-1b:
+[2025-12-14 13:36:27] [INFO]   cot            :  22.3%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :  20.3%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :  20.7%
+[2025-12-14 13:36:27] [INFO] 
+phi3-medium:
+[2025-12-14 13:36:27] [INFO]   cot            :  20.7%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :  23.9%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :  24.1%
+[2025-12-14 13:36:27] [INFO] 
+qwen2.5-3b:
+[2025-12-14 13:36:27] [INFO]   cot            :  21.9%
+[2025-12-14 13:36:27] [INFO]   cot_hidden     :  27.4%
+[2025-12-14 13:36:27] [INFO]   zero_shot      :  19.5%
+[2025-12-14 13:36:27] [INFO] 
+================================================================================
+[2025-12-14 13:36:27] [INFO] ### Table 4: All Combinations (Sorted by Accuracy)
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] 
+Rank  Model          Task                Prompt         Accuracy  Total 
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] 1     phi3-medium    connectivity        zero_shot        69.3%    371   
+[2025-12-14 13:36:27] [INFO] 2     phi3-medium    connectivity        cot_hidden       68.2%    371   
+[2025-12-14 13:36:27] [INFO] 3     phi3-medium    connectivity        cot              65.0%    371   
+[2025-12-14 13:36:27] [INFO] 4     qwen2.5-3b     connectivity        cot              64.7%    371   
+[2025-12-14 13:36:27] [INFO] 5     qwen2.5-3b     connectivity        cot_hidden       63.3%    371   
+[2025-12-14 13:36:27] [INFO] 6     qwen2.5-3b     connectivity        zero_shot        59.6%    371   
+[2025-12-14 13:36:27] [INFO] 7     llama3.2-1b    connectivity        cot              51.8%    371   
+[2025-12-14 13:36:27] [INFO] 8     llama3.2-1b    connectivity        zero_shot        48.5%    371   
+[2025-12-14 13:36:27] [INFO] 9     llama3.2-1b    connectivity        cot_hidden       48.2%    371   
+[2025-12-14 13:36:27] [INFO] 10    llama3.2-1b    shortest_path       cot              32.8%    64    
+[2025-12-14 13:36:27] [INFO] 11    qwen2.5-3b     shortest_path       cot_hidden       28.1%    64    
+[2025-12-14 13:36:27] [INFO] 12    llama3.2-1b    shortest_path       cot_hidden       23.4%    64    
+[2025-12-14 13:36:27] [INFO] 13    llama3.2-1b    shortest_path       zero_shot        22.6%    124   
+[2025-12-14 13:36:27] [INFO] 14    phi3-medium    shortest_path       zero_shot        18.8%    64    
+[2025-12-14 13:36:27] [INFO] 15    phi3-medium    shortest_path       cot_hidden       17.2%    64    
+[2025-12-14 13:36:27] [INFO] 16    qwen2.5-3b     shortest_path       cot              14.1%    64    
+[2025-12-14 13:36:27] [INFO] 17    qwen2.5-3b     bipartite_matching  cot_hidden       13.1%    84    
+[2025-12-14 13:36:27] [INFO] 18    phi3-medium    shortest_path       cot              10.9%    64    
+[2025-12-14 13:36:27] [INFO] 19    llama3.2-1b    bipartite_matching  zero_shot         8.3%    84    
+[2025-12-14 13:36:27] [INFO] 20    phi3-medium    bipartite_matching  zero_shot         8.3%    84    
+[2025-12-14 13:36:27] [INFO] 21    phi3-medium    bipartite_matching  cot_hidden        8.3%    84    
+[2025-12-14 13:36:27] [INFO] 22    qwen2.5-3b     bipartite_matching  cot               7.1%    84    
+[2025-12-14 13:36:27] [INFO] 23    qwen2.5-3b     bipartite_matching  zero_shot         7.1%    84    
+[2025-12-14 13:36:27] [INFO] 24    qwen2.5-3b     shortest_path       zero_shot         6.2%    64    
+[2025-12-14 13:36:27] [INFO] 25    llama3.2-1b    bipartite_matching  cot_hidden        6.0%    84    
+[2025-12-14 13:36:27] [INFO] 26    qwen2.5-3b     maximum_flow        zero_shot         5.2%    58    
+[2025-12-14 13:36:27] [INFO] 27    qwen2.5-3b     maximum_flow        cot_hidden        5.2%    58    
+[2025-12-14 13:36:27] [INFO] 28    llama3.2-1b    bipartite_matching  cot               4.8%    84    
+[2025-12-14 13:36:27] [INFO] 29    phi3-medium    bipartite_matching  cot               3.6%    84    
+[2025-12-14 13:36:27] [INFO] 30    llama3.2-1b    maximum_flow        cot_hidden        3.4%    58    
+[2025-12-14 13:36:27] [INFO] 31    llama3.2-1b    maximum_flow        zero_shot         3.4%    58    
+[2025-12-14 13:36:27] [INFO] 32    phi3-medium    maximum_flow        cot               3.4%    58    
+[2025-12-14 13:36:27] [INFO] 33    qwen2.5-3b     maximum_flow        cot               1.7%    58    
+[2025-12-14 13:36:27] [INFO] 34    phi3-medium    maximum_flow        cot_hidden        1.7%    58    
+[2025-12-14 13:36:27] [INFO] 35    llama3.2-1b    maximum_flow        cot               0.0%    58    
+[2025-12-14 13:36:27] [INFO] 36    phi3-medium    maximum_flow        zero_shot         0.0%    58    
+[2025-12-14 13:36:27] [INFO] 
+================================================================================
+[2025-12-14 13:36:27] [INFO] ### Table 5: Statistical Summary
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] 
+Model          Mean      Std       Min       Max       
+[2025-12-14 13:36:27] [INFO] --------------------------------------------------------------------------------
+[2025-12-14 13:36:27] [INFO] llama3.2-1b        21.1%      19.8%       0.0%      51.8%
+[2025-12-14 13:36:27] [INFO] phi3-medium        22.9%      27.5%       0.0%      69.3%
+[2025-12-14 13:36:27] [INFO] qwen2.5-3b         23.0%      24.8%       1.7%      64.7%
+[2025-12-14 13:36:27] [INFO] 
+================================================================================
+[2025-12-14 13:36:27] [INFO] ### Key Insights
+[2025-12-14 13:36:27] [INFO] ================================================================================
+[2025-12-14 13:36:27] [INFO] 
+🏆 Best Model per Task:
+[2025-12-14 13:36:27] [INFO]   bipartite_matching: qwen2.5-3b (13.1%) with cot_hidden
+[2025-12-14 13:36:27] [INFO]   connectivity: phi3-medium (69.3%) with zero_shot
+[2025-12-14 13:36:27] [INFO]   maximum_flow: qwen2.5-3b (5.2%) with cot_hidden
+[2025-12-14 13:36:27] [INFO]   shortest_path: llama3.2-1b (32.8%) with cot
+[2025-12-14 13:36:27] [INFO] 
+📊 Prompt Engineering Impact:
+[2025-12-14 13:36:27] [INFO]   cot_hidden: 23.9% average
+[2025-12-14 13:36:28] [INFO]   cot: 21.7% average
+[2025-12-14 13:36:28] [INFO]   zero_shot: 21.4% average
+[2025-12-14 13:36:28] [INFO] 
+🔍 Model Size Analysis:
+[2025-12-14 13:36:28] [INFO]   qwen2.5-3b (3B): 23.0%
+[2025-12-14 13:36:28] [INFO]   phi3-medium (14B): 22.9%
+[2025-12-14 13:36:28] [INFO]   llama3.2-1b (1.2B): 21.1%
+[2025-12-14 13:36:28] [INFO] 
+📈 Task Difficulty Ranking:
+[2025-12-14 13:36:28] [INFO]   1. connectivity: 59.8% (EASY)
+[2025-12-14 13:36:28] [INFO]   2. shortest_path: 19.3% (HARD)
+[2025-12-14 13:36:28] [INFO]   3. bipartite_matching: 7.4% (VERY HARD)
+[2025-12-14 13:36:28] [INFO]   4. maximum_flow: 2.7% (VERY HARD)
+[2025-12-14 13:36:28] [INFO] 
+📉 Consistency Analysis (Lower is better):
+[2025-12-14 13:36:28] [INFO]   llama3.2-1b: 19.8% std deviation
+[2025-12-14 13:36:28] [INFO]   qwen2.5-3b: 24.8% std deviation
+[2025-12-14 13:36:28] [INFO]   phi3-medium: 27.5% std deviation
+[2025-12-14 13:36:28] [INFO] 
+================================================================================
+[2025-12-14 13:36:28] [INFO] VISUALIZATION COMPLETE
+[2025-12-14 13:36:28] [INFO] ================================================================================

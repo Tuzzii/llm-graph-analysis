@@ -1,0 +1,241 @@
+label,example_id,model,task,model_output,ground_truth,comment
+wrong_value,FB_CONN_002,gpt-4o-mini,connectivity,"To determine if nodes 3413 and 2848 are connected in the given undirected subgraph of the Facebook network, we can use a graph traversal algorithm. The most common algorithms for this purpose are Depth-First Search (DFS) and Breadth-First Search (BFS). For this explanation, we will use BFS, as it is particularly effective for finding the shortest path in an unweighted graph.
+
+### Step 1: Represent the Graph
+First, we need to represent the graph using the provided nodes and edges. We can use an adjacency list for this purpose.
+
+1. **Nodes**: 
+   ```
+   ['3383', '1684', '3125', '2831', '2665', '2865', '2848', '2662', '2917', '3231', '2913', '2740', '3208', '2827', '2754', '3420', '3161', '2947', '3369', '3381', '3413']
+   ```
+
+2. **Edges**: 
+   ```
+   3383-1684, 1684-2662, 1684-2665, 1684-2740, 1684-2754, 1684-2827, 1684-2831, 1684-2848, 1684-2865, 1684-2913, 1684-2917, 1684-2947, 1684-3125, 1684-3161, 1684-3208, 1684-3231, 1684-3369, 1684-3381, 1684-3413, 1684-3420, 2831-2865, 2865-3369, 2917-2827, 2913-2827
+   ```
+
+### Step 2: Build the Adjacency List
+We will create an adjacency list to represent the graph:
+
+```python
+graph = {
+    '3383': ['1684'],
+    '1684': ['3383', '2662', '2665', '2740', '2754', '2827', '2831', '2848', '2865', '2913', '2917', '2947', '3125', '3161', '3208', '3231', '3369', '3381', '3413', '3420'],
+    '3125': ['1684'],
+    '2831': ['1684', '2865'],
+    '2665': ['1684'],
+    '2865': ['1684', '2831', '3369'],
+    '2848': ['1684'],
+    '2662': ['1684'],
+    '2917': ['1684', '2827'],
+    '3231': ['1684'],
+    '2913': ['1684', '2827'],
+    '2740': ['1684'],
+    '3208': ['1684'],
+    '2827': ['1684', '2917', '2913'],
+    '2754': ['1684'],
+    '3420': ['1684'],
+    '3161': ['1684'],
+    '2947': ['1684'],
+    '3369': ['1684', '2865'],
+    '3381': ['1684'],
+    '3413': ['1684']
+}
+```
+
+### Step 3: Implement BFS to Find the Shortest Path
+We will implement BFS starting from node 3413 and check if we can reach node 2848. We will also keep track of the path taken.
+
+1. **Initialize the BFS**:
+   - Create a queue and enqueue the starting node (3413).
+   - Maintain a set to track visited nodes","{""connected"": true, ""path"": [""3413"", ""1684"", ""2848""], ""status"": ""ok""}",
+format_error,FB_BM_000,gpt-3.5-turbo,bipartite_matching,,"{""match_size"": 4, ""pairs"": [[""1868"", ""1547""], [""651"", ""526""], [""1671"", ""637""], [""1136"", ""1511""]], ""status"": ""ok""}","Invalid format, cannot parse answer"
+hallucination,FB_SP_022,gpt-4o-mini,shortest_path,"To find the shortest path between nodes 804 and 876 in the given subgraph of the Facebook social network, we can use the Breadth-First Search (BFS) algorithm. BFS is particularly suitable for unweighted graphs, as it explores all neighbors at the present depth prior to moving on to nodes at the next depth level.
+
+### Step-by-Step Reasoning:
+
+1. **Graph Representation**:
+   We will represent the graph using an adjacency list. Each node will have a list of its directly connected neighbors.
+
+2. **Building the Graph**:
+   We will create a dictionary where each key is a node and the value is a list of nodes it is connected to via edges.
+
+   Given the edges:
+   ```
+   747-686, 747-697, 747-703, 747-745, 747-800, 747-804, 747-805, 747-819, 747-828, 747-840, 747-880,
+   828-686, 828-697, 828-703, 828-745, 828-800, 828-805, 828-819, 828-840, 828-880,
+   686-697, 686-703, 686-745, 686-798, 686-800, 686-804, 686-805, 686-811, 686-819, 686-840,
+   885-867, 885-872, 885-873, 885-877,
+   876-804, 876-861, 876-886,
+   800-697, 800-745, 800-805, 800-811,
+   880-703, 880-805, 880-819,
+   873-867, 873-872,
+   886-804,
+   871-857, 871-879, 871-881, 881-879,
+   819-697, 819-703, 819-805, 819-840,
+   879-894,
+   745-697, 745-805,
+   805-697, 805-703, 805-840,
+   872-867, 867-877,
+   697-840,
+   804-861
+   ```
+
+   The adjacency list representation will look like this:
+   ```python
+   graph = {
+       '747': ['686', '697', '703', '745', '800', '804', '805', '819', '828', '840', '880'],
+       '828': ['686', '697', '703', '745', '800', '805', '819', '840', '880'],
+       '686': ['747', '828', '697', '703', '745', '798', '800', '804', '805', '811', '819', '840'],
+       '885': ['867', '872', '873', '877'],
+       '876': ['804', '861', '886'],
+       '800': ['697', '745', '805', '811'],
+       '880': ['703', '805', '819'],
+       '873': ['867', '872'],
+       '886': ['804'],
+       '871': ['857', '879', '881'],
+       '819': ['697', '703', '805', '840'],
+       '879': ['894'],
+       '745': ['697', '805'],
+       '805': ['697', '703', '840'],
+       '872': ['867'],
+       '867': ['877'],
+       '697': ['840'],
+       '804': ['861']
+   }
+   ```
+
+3. **BFS Implementation**:
+   We will implement BFS to find","{""distance"": 1, ""path"": [""804"", ""876""], ""status"": ""ok""}","Predicted 804.0 vs actual 1, large error | High latency: 109.3s"
+computational_error,FB_BM_000,llama3.2-1b,bipartite_matching,"To solve this problem, we need to find the maximum matching in the given bipartite graph. A matching in a graph is a subset of edges such that no two edges share a common vertex.
+
+Here's the detailed step-by-step reasoning:
+
+**Step 1: Understand the structure of the graph**
+
+The given graph has two partitions: left and right. We need to find pairs of vertices that belong to different partitions, which form a matching.
+
+**Step 2: Identify the edges in the bipartite graph**
+
+We are given specific edges between the left and right partitions:
+
+* 1737-1547
+* 1714-1547
+* 1491-1547
+* 1868-1547
+* 651-526
+* 1671-637
+* 1300-637
+* 1136-1511
+
+We need to find pairs of vertices that belong to different partitions and have these edges.
+
+**Step 3: Find a vertex in the left partition**
+
+From the given edges, we can see that there are no direct connections between all the vertices in the left partition. However, we can start with an arbitrary vertex, say 1093. We need to find a pair of vertices from different partitions that have these edges.
+
+* Edge: 1093-1310
+* Edge: 1093-1136
+
+Since both edges are connected to 1093 and not directly between other vertices in the left partition, we can include these pairs in our matching. However, there might be more optimal pairs as well.
+
+**Step 4: Find a vertex in the right partition**
+
+Similarly, from the given edges, we can see that there are no direct connections between all the vertices in the right partition. However, we can start with an arbitrary vertex, say 1446. We need to find a pair of vertices from different partitions that have these edges.
+
+* Edge: 1446-1310
+* Edge: 1511-1310
+
+Since both edges are connected to 1446 and not directly between other vertices in the right partition, we can include these pairs in our matching. However, there might be more optimal pairs as well.
+
+**Step 5: Find a vertex in the left partition**
+
+We notice that we have already found two pairs of vertices from different partitions with edges (1093-1310 and 1446-1310) that have no common vertices between their respective partitions. We can also include the pair (1714-1547) which has vertices 1714 and 1547.
+
+**Step 6: Find a vertex in the right partition**
+
+We notice that we have already found two pairs of vertices from different partitions with edges (1093-1136, 1446-1310, and 651-526) that have no common vertices between their respective partitions. We can also include the pair (1300-637) which has vertices 1300 and 637.
+
+**Step 7: Determine the maximum matching**
+
+Based on our previous steps, we found the following pairs of vertices from different partitions with edges:
+
+* 1093-1310
+* 1446-1310
+* 1714-1547
+
+However, we also noticed that there is an edge between 651 and 526. We can include this edge in our matching as well.
+
+**Step 8: Verify the maximum matching**
+
+We have found a total of three pairs of vertices from different partitions with edges, which form a matching.
+
+The final answer is:
+
+The size of the maximum matching is 3.","{""match_size"": 4, ""pairs"": [[""1868"", ""1547""], [""651"", ""526""], [""1671"", ""637""], [""1136"", ""1511""]], ""status"": ""ok""}",Predicted 1.0 vs actual 4
+high_latency,FB_CONN_020,gpt-4o-mini,connectivity,,"{""connected"": true, ""path"": [""3016"", ""2869"", ""1405"", ""3366""], ""status"": ""ok""}","Invalid format, cannot parse answer | High latency: 148.9s"
+ambiguous_answer,FB_CONN_000,gpt-4o-mini,connectivity,"Yes, nodes 3378 and 2931 are connected. One shortest path between them is: 3378 - 2913 - 2931.","{""connected"": false, ""path"": null, ""status"": ""ok""}",Output contains both YES and NO
+off_by_one,FB_BM_009,llama3.2-1b,bipartite_matching,"To find the size of a maximum matching in this bipartite graph, we need to follow these steps:
+
+### Step 1: Construct the Bipartite Graph Representation
+First, let's construct the bipartite graph representation. The left partition will be nodes [1828, 1184, 1683, 1612, 1566, 1644, 1030, 1642, 1750, 1297] and the right partition will be nodes ['1743', '1855', '1628', '1001', '913', '1024', '1206', '1215', '1319', '1515']. We'll use these as our nodes in the graph.
+
+Since it's a bipartite graph, each node in one partition will be connected to exactly one node in the other partition. Therefore, we can represent this relationship by adjacency edges between corresponding nodes from the two partitions.
+
+### Step 2: Determine the Maximum Matching
+The maximum matching in a bipartite graph is a subset of edges such that every pair of vertices (in different parts) in the matching are adjacent in the original graph. In other words, it's a set of pairs of nodes where each node appears exactly once in the matching.
+
+Given this definition, we need to find all possible pairs of distinct nodes from the two partitions and identify which pairs can be included in our maximum matching.
+
+### Step 3: List All Possible Pairs
+First, let's list all possible pairs (i, j) such that i is a node from the left partition and j is a node from the right partition:
+
+1. (1828, 1743)
+2. (1184, 1628)
+3. (1683, 1001)
+4. (1612, 1206)
+5. (1566, 1024)
+6. (1644, 1215)
+7. (1030, 915)
+
+### Step 4: Check for Maximum Matching
+Next, we need to check which pairs can be included in our maximum matching.
+
+A pair of vertices is matched if there are no common neighbors between the two nodes. In this case, we only have adjacent edges between different parts of the graph, so we can directly identify the valid pairs from Step 3 as possible matches.
+
+1. (1828, 1743)
+2. (1184, 1628)
+3. (1683, 1001)
+4. (1612, 1206)
+
+These four pairs are candidates for our maximum matching because none of them have common neighbors in either partition.
+
+### Step 5: Verify the Maximum Matching
+Now, let's verify that these four pairs form a maximum matching by ensuring no adjacent pair is included:
+
+- The first and second pairs do not share any vertices (1828 and 1743 are not adjacent).
+- Similarly, the other three pairs also don't have any common neighbors.
+
+Therefore, our maximum matching consists of the following pairs:
+1. (1828, 1743)
+2. (1184, 1628)
+3. (1683, 1001)
+4. (1612, 1206)
+
+### Step 6: Calculate the Size of Maximum Matching
+To calculate the size of our maximum matching, we simply count how many pairs we have included:
+
+Size = Number of Pairs in Maximum Matching = 4
+
+So, the size of a maximum matching in this bipartite graph is 4.","{""match_size"": 2, ""pairs"": [[""1828"", ""1215""], [""1566"", ""1743""]], ""status"": ""ok""}","Answer off by 1, possible boundary error"
+excessive_verbosity,FB_BM_035,llama3.2-1b,bipartite_matching,"To find the size of the maximum matching in this bipartite graph, we can use the Hopcroft-Karp algorithm. However, due to the complexity of implementing it step-by-step without revealing intermediate steps, I'll outline the general approach.
+
+First, we need to identify all edges in both partitions that are incident to a pair of vertices in each partition and have no matching in one or both of the other partitions. Then, we add these pairs together to find the maximum matching.
+
+The first step is to sort the edges in both partitions by their end vertices' values in descending order. This ensures that when adding an edge, we're considering the most significant value for each pair of vertices.
+
+Next, we iterate through the sorted edges and check if there's a vertex in the left partition that can match with the corresponding vertex in the right partition (excluding any edges already matched). If such a matching is found, we add it to our maximum matching.
+
+We continue this process until no more matches can be added. The size of the maximum matching is then the sum of all these pairs.
+
+Given the complexity and the lack of specific step-by-step reasoning due to the constraints, I'll proceed directly to providing the final answer based on the outlined approach.","{""match_size"": 2, ""pairs"": [[""1322"", ""1115""], [""1598"", ""925""]], ""status"": ""ok""}","Output too verbose, no clear answer"

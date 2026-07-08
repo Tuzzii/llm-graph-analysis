@@ -1,0 +1,441 @@
+{
+  "summary": {
+    "total_experiments": 36,
+    "total_prompts": 5253,
+    "average_accuracy": 22.3192282571103,
+    "best_accuracy": 69.2722371967655,
+    "worst_accuracy": 0.0
+  },
+  "by_model": {
+    "llama3.2-1b": {
+      "average_accuracy": 21.107694679056724,
+      "experiments": 12,
+      "by_task": {
+        "bipartite_matching": 6.349206349206348,
+        "connectivity": 49.505840071877806,
+        "maximum_flow": 2.2988505747126435,
+        "shortest_path": 26.276881720430108
+      }
+    },
+    "phi3-medium": {
+      "average_accuracy": 22.89261542016503,
+      "experiments": 12,
+      "by_task": {
+        "bipartite_matching": 6.746031746031744,
+        "connectivity": 67.47529200359389,
+        "maximum_flow": 1.7241379310344829,
+        "shortest_path": 15.625
+      }
+    },
+    "qwen2.5-3b": {
+      "average_accuracy": 22.957374672109143,
+      "experiments": 12,
+      "by_task": {
+        "bipartite_matching": 9.126984126984128,
+        "connectivity": 62.53369272237197,
+        "maximum_flow": 4.022988505747127,
+        "shortest_path": 16.145833333333332
+      }
+    }
+  },
+  "by_task": {
+    "bipartite_matching": {
+      "average_accuracy": 7.4074074074074066,
+      "cases": 84,
+      "by_model": {
+        "llama3.2-1b": 6.349206349206348,
+        "phi3-medium": 6.746031746031744,
+        "qwen2.5-3b": 9.126984126984128
+      }
+    },
+    "connectivity": {
+      "average_accuracy": 59.83827493261455,
+      "cases": 371,
+      "by_model": {
+        "llama3.2-1b": 49.505840071877806,
+        "phi3-medium": 67.47529200359389,
+        "qwen2.5-3b": 62.53369272237197
+      }
+    },
+    "maximum_flow": {
+      "average_accuracy": 2.681992337164751,
+      "cases": 58,
+      "by_model": {
+        "llama3.2-1b": 2.2988505747126435,
+        "phi3-medium": 1.7241379310344829,
+        "qwen2.5-3b": 4.022988505747127
+      }
+    },
+    "shortest_path": {
+      "average_accuracy": 19.349238351254478,
+      "cases": 64,
+      "by_model": {
+        "llama3.2-1b": 26.276881720430108,
+        "phi3-medium": 15.625,
+        "qwen2.5-3b": 16.145833333333332
+      }
+    }
+  },
+  "all_results": [
+    {
+      "model": "llama3.2-1b",
+      "task": "bipartite_matching",
+      "prompt_type": "cot",
+      "total": 84,
+      "correct": 4,
+      "invalid": 0,
+      "accuracy": 4.761904761904762,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "bipartite_matching",
+      "prompt_type": "cot_hidden",
+      "total": 84,
+      "correct": 5,
+      "invalid": 0,
+      "accuracy": 5.952380952380952,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "bipartite_matching",
+      "prompt_type": "zero_shot",
+      "total": 84,
+      "correct": 7,
+      "invalid": 0,
+      "accuracy": 8.333333333333332,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "connectivity",
+      "prompt_type": "cot",
+      "total": 371,
+      "correct": 192,
+      "invalid": 0,
+      "accuracy": 51.75202156334232,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "connectivity",
+      "prompt_type": "cot_hidden",
+      "total": 371,
+      "correct": 179,
+      "invalid": 0,
+      "accuracy": 48.24797843665768,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "connectivity",
+      "prompt_type": "zero_shot",
+      "total": 371,
+      "correct": 180,
+      "invalid": 0,
+      "accuracy": 48.51752021563343,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "maximum_flow",
+      "prompt_type": "cot",
+      "total": 58,
+      "correct": 0,
+      "invalid": 0,
+      "accuracy": 0.0,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "maximum_flow",
+      "prompt_type": "cot_hidden",
+      "total": 58,
+      "correct": 2,
+      "invalid": 0,
+      "accuracy": 3.4482758620689653,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "maximum_flow",
+      "prompt_type": "zero_shot",
+      "total": 58,
+      "correct": 2,
+      "invalid": 0,
+      "accuracy": 3.4482758620689653,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "shortest_path",
+      "prompt_type": "cot",
+      "total": 64,
+      "correct": 21,
+      "invalid": 0,
+      "accuracy": 32.8125,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "shortest_path",
+      "prompt_type": "cot_hidden",
+      "total": 64,
+      "correct": 15,
+      "invalid": 0,
+      "accuracy": 23.4375,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "llama3.2-1b",
+      "task": "shortest_path",
+      "prompt_type": "zero_shot",
+      "total": 124,
+      "correct": 28,
+      "invalid": 0,
+      "accuracy": 22.58064516129032,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "bipartite_matching",
+      "prompt_type": "cot",
+      "total": 84,
+      "correct": 3,
+      "invalid": 0,
+      "accuracy": 3.571428571428571,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "bipartite_matching",
+      "prompt_type": "cot_hidden",
+      "total": 84,
+      "correct": 7,
+      "invalid": 0,
+      "accuracy": 8.333333333333332,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "bipartite_matching",
+      "prompt_type": "zero_shot",
+      "total": 84,
+      "correct": 7,
+      "invalid": 0,
+      "accuracy": 8.333333333333332,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "connectivity",
+      "prompt_type": "cot",
+      "total": 371,
+      "correct": 241,
+      "invalid": 0,
+      "accuracy": 64.95956873315365,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "connectivity",
+      "prompt_type": "cot_hidden",
+      "total": 371,
+      "correct": 253,
+      "invalid": 0,
+      "accuracy": 68.19407008086253,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "connectivity",
+      "prompt_type": "zero_shot",
+      "total": 371,
+      "correct": 257,
+      "invalid": 0,
+      "accuracy": 69.2722371967655,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "phi3-medium",
+      "task": "maximum_flow",
+      "prompt_type": "cot",
+      "total": 58,
+      "correct": 2,
+      "invalid": 1,
+      "accuracy": 3.4482758620689653,
+      "invalid_rate": 1.7241379310344829
+    },
+    {
+      "model": "phi3-medium",
+      "task": "maximum_flow",
+      "prompt_type": "cot_hidden",
+      "total": 58,
+      "correct": 1,
+      "invalid": 2,
+      "accuracy": 1.7241379310344829,
+      "invalid_rate": 3.4482758620689653
+    },
+    {
+      "model": "phi3-medium",
+      "task": "maximum_flow",
+      "prompt_type": "zero_shot",
+      "total": 58,
+      "correct": 0,
+      "invalid": 2,
+      "accuracy": 0.0,
+      "invalid_rate": 3.4482758620689653
+    },
+    {
+      "model": "phi3-medium",
+      "task": "shortest_path",
+      "prompt_type": "cot",
+      "total": 64,
+      "correct": 7,
+      "invalid": 1,
+      "accuracy": 10.9375,
+      "invalid_rate": 1.5625
+    },
+    {
+      "model": "phi3-medium",
+      "task": "shortest_path",
+      "prompt_type": "cot_hidden",
+      "total": 64,
+      "correct": 11,
+      "invalid": 2,
+      "accuracy": 17.1875,
+      "invalid_rate": 3.125
+    },
+    {
+      "model": "phi3-medium",
+      "task": "shortest_path",
+      "prompt_type": "zero_shot",
+      "total": 64,
+      "correct": 12,
+      "invalid": 1,
+      "accuracy": 18.75,
+      "invalid_rate": 1.5625
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "bipartite_matching",
+      "prompt_type": "cot",
+      "total": 84,
+      "correct": 6,
+      "invalid": 0,
+      "accuracy": 7.142857142857142,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "bipartite_matching",
+      "prompt_type": "cot_hidden",
+      "total": 84,
+      "correct": 11,
+      "invalid": 0,
+      "accuracy": 13.095238095238097,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "bipartite_matching",
+      "prompt_type": "zero_shot",
+      "total": 84,
+      "correct": 6,
+      "invalid": 0,
+      "accuracy": 7.142857142857142,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "connectivity",
+      "prompt_type": "cot",
+      "total": 371,
+      "correct": 240,
+      "invalid": 0,
+      "accuracy": 64.6900269541779,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "connectivity",
+      "prompt_type": "cot_hidden",
+      "total": 371,
+      "correct": 235,
+      "invalid": 0,
+      "accuracy": 63.3423180592992,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "connectivity",
+      "prompt_type": "zero_shot",
+      "total": 371,
+      "correct": 221,
+      "invalid": 0,
+      "accuracy": 59.56873315363881,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "maximum_flow",
+      "prompt_type": "cot",
+      "total": 58,
+      "correct": 1,
+      "invalid": 0,
+      "accuracy": 1.7241379310344829,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "maximum_flow",
+      "prompt_type": "cot_hidden",
+      "total": 58,
+      "correct": 3,
+      "invalid": 0,
+      "accuracy": 5.172413793103448,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "maximum_flow",
+      "prompt_type": "zero_shot",
+      "total": 58,
+      "correct": 3,
+      "invalid": 0,
+      "accuracy": 5.172413793103448,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "shortest_path",
+      "prompt_type": "cot",
+      "total": 64,
+      "correct": 9,
+      "invalid": 0,
+      "accuracy": 14.0625,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "shortest_path",
+      "prompt_type": "cot_hidden",
+      "total": 64,
+      "correct": 18,
+      "invalid": 0,
+      "accuracy": 28.125,
+      "invalid_rate": 0.0
+    },
+    {
+      "model": "qwen2.5-3b",
+      "task": "shortest_path",
+      "prompt_type": "zero_shot",
+      "total": 64,
+      "correct": 4,
+      "invalid": 0,
+      "accuracy": 6.25,
+      "invalid_rate": 0.0
+    }
+  ]
+}

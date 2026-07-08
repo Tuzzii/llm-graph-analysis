@@ -1,0 +1,578 @@
+[
+  {
+    "id": "NLG_SH_0",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 12, and the edges are:\nan edge between node 0 and node 12 with weight 5,\nan edge between node 0 and node 2 with weight 4,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 1 and node 3 with weight 3,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 2 and node 5 with weight 8,\nan edge between node 2 and node 10 with weight 1,\nan edge between node 3 and node 6 with weight 10,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 3 and node 7 with weight 6,\nan edge between node 3 and node 8 with weight 5,\nan edge between node 4 and node 12 with weight 5,\nan edge between node 5 and node 7 with weight 7,\nan edge between node 5 and node 11 with weight 6,\nan edge between node 7 and node 11 with weight 2,\nan edge between node 8 and node 9 with weight 1,\nan edge between node 9 and node 12 with weight 9,\nan edge between node 9 and node 11 with weight 5,\nan edge between node 9 and node 10 with weight 5,\nan edge between node 10 and node 12 with weight 6,\nan edge between node 10 and node 11 with weight 1.\nQ: Give the shortest path from node 4 to node 2.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 2 is 4,12,10,2 with a total weight of 12"
+  },
+  {
+    "id": "NLG_SH_1",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 17, and the edges are:\nan edge between node 0 and node 6 with weight 6,\nan edge between node 0 and node 9 with weight 1,\nan edge between node 0 and node 5 with weight 8,\nan edge between node 1 and node 15 with weight 10,\nan edge between node 1 and node 4 with weight 7,\nan edge between node 1 and node 16 with weight 6,\nan edge between node 2 and node 9 with weight 2,\nan edge between node 2 and node 13 with weight 3,\nan edge between node 3 and node 14 with weight 6,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 3 and node 4 with weight 2,\nan edge between node 4 and node 6 with weight 2,\nan edge between node 4 and node 13 with weight 6,\nan edge between node 4 and node 16 with weight 10,\nan edge between node 4 and node 12 with weight 7,\nan edge between node 5 and node 6 with weight 9,\nan edge between node 5 and node 9 with weight 4,\nan edge between node 6 and node 14 with weight 4,\nan edge between node 6 and node 8 with weight 1,\nan edge between node 6 and node 10 with weight 3,\nan edge between node 7 and node 17 with weight 2,\nan edge between node 8 and node 10 with weight 2,\nan edge between node 8 and node 15 with weight 1,\nan edge between node 8 and node 12 with weight 6,\nan edge between node 9 and node 17 with weight 9,\nan edge between node 9 and node 10 with weight 7,\nan edge between node 11 and node 12 with weight 10,\nan edge between node 13 and node 15 with weight 9,\nan edge between node 14 and node 15 with weight 10.\nQ: Give the shortest path from node 11 to node 7.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 11 to node 7 is 11,12,4,3,9,17,7 with a total weight of 33"
+  },
+  {
+    "id": "NLG_SH_2",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 11, and the edges are:\nan edge between node 0 and node 6 with weight 3,\nan edge between node 0 and node 5 with weight 8,\nan edge between node 1 and node 7 with weight 7,\nan edge between node 1 and node 11 with weight 2,\nan edge between node 1 and node 9 with weight 1,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 9 with weight 8,\nan edge between node 2 and node 5 with weight 6,\nan edge between node 2 and node 4 with weight 9,\nan edge between node 3 and node 8 with weight 3,\nan edge between node 3 and node 9 with weight 2,\nan edge between node 4 and node 11 with weight 3,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 5 and node 10 with weight 2,\nan edge between node 5 and node 9 with weight 7,\nan edge between node 6 and node 8 with weight 2,\nan edge between node 6 and node 10 with weight 10,\nan edge between node 6 and node 11 with weight 6,\nan edge between node 8 and node 11 with weight 6,\nan edge between node 8 and node 9 with weight 2.\nQ: Give the shortest path from node 7 to node 2.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 7 to node 2 is 7,1,9,3,2 with a total weight of 12"
+  },
+  {
+    "id": "NLG_SH_3",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 7 with weight 2,\nan edge between node 0 and node 8 with weight 3,\nan edge between node 0 and node 5 with weight 3,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 2 and node 7 with weight 2,\nan edge between node 2 and node 8 with weight 3,\nan edge between node 2 and node 4 with weight 2,\nan edge between node 2 and node 6 with weight 1,\nan edge between node 3 and node 8 with weight 2,\nan edge between node 3 and node 6 with weight 1,\nan edge between node 3 and node 5 with weight 4,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 5 and node 7 with weight 3,\nan edge between node 5 and node 6 with weight 3,\nan edge between node 7 and node 8 with weight 1.\nQ: Give the shortest path from node 7 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 7 to node 3 is 7,8,3 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_4",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 9, and the edges are:\nan edge between node 0 and node 8 with weight 4,\nan edge between node 0 and node 2 with weight 1,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 1 and node 8 with weight 2,\nan edge between node 1 and node 7 with weight 4,\nan edge between node 1 and node 5 with weight 1,\nan edge between node 2 and node 3 with weight 1,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 3 and node 5 with weight 3,\nan edge between node 3 and node 9 with weight 4,\nan edge between node 4 and node 8 with weight 4,\nan edge between node 4 and node 5 with weight 4,\nan edge between node 4 and node 9 with weight 2,\nan edge between node 5 and node 8 with weight 1,\nan edge between node 5 and node 9 with weight 4,\nan edge between node 6 and node 7 with weight 1,\nan edge between node 8 and node 9 with weight 1.\nQ: Give the shortest path from node 3 to node 8.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 3 to node 8 is 3,5,8 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_5",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 4, and the edges are:\nan edge between node 0 and node 2 with weight 1,\nan edge between node 0 and node 4 with weight 4,\nan edge between node 0 and node 1 with weight 4,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 3 and node 4 with weight 3.\nQ: Give the shortest path from node 2 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 4 is 2,0,4 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_6",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 11, and the edges are:\nan edge between node 0 and node 2 with weight 9,\nan edge between node 0 and node 7 with weight 4,\nan edge between node 1 and node 8 with weight 10,\nan edge between node 1 and node 9 with weight 4,\nan edge between node 1 and node 10 with weight 4,\nan edge between node 2 and node 4 with weight 9,\nan edge between node 3 and node 4 with weight 6,\nan edge between node 3 and node 6 with weight 3,\nan edge between node 3 and node 7 with weight 8,\nan edge between node 4 and node 7 with weight 8,\nan edge between node 5 and node 7 with weight 6,\nan edge between node 6 and node 9 with weight 1,\nan edge between node 6 and node 10 with weight 1,\nan edge between node 7 and node 9 with weight 6,\nan edge between node 8 and node 11 with weight 9,\nan edge between node 8 and node 9 with weight 3.\nQ: Give the shortest path from node 11 to node 2.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 11 to node 2 is 11,8,9,7,0,2 with a total weight of 31"
+  },
+  {
+    "id": "NLG_SH_7",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 2 with weight 4,\nan edge between node 0 and node 1 with weight 4,\nan edge between node 0 and node 4 with weight 2,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 5 with weight 1,\nan edge between node 3 and node 4 with weight 1,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 4 and node 5 with weight 3.\nQ: Give the shortest path from node 1 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 1 to node 3 is 1,2,3 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_8",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 2 with weight 2,\nan edge between node 0 and node 5 with weight 4,\nan edge between node 0 and node 3 with weight 1,\nan edge between node 0 and node 1 with weight 3,\nan edge between node 1 and node 2 with weight 4,\nan edge between node 1 and node 5 with weight 1,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 3 with weight 1,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 4 and node 5 with weight 2.\nQ: Give the shortest path from node 0 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 0 to node 4 is 0,3,4 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_9",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 9, and the edges are:\nan edge between node 0 and node 6 with weight 4,\nan edge between node 0 and node 4 with weight 2,\nan edge between node 0 and node 3 with weight 3,\nan edge between node 0 and node 7 with weight 1,\nan edge between node 0 and node 8 with weight 3,\nan edge between node 1 and node 6 with weight 1,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 1 and node 9 with weight 4,\nan edge between node 1 and node 7 with weight 1,\nan edge between node 1 and node 8 with weight 2,\nan edge between node 2 and node 6 with weight 3,\nan edge between node 2 and node 5 with weight 3,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 2 and node 9 with weight 2,\nan edge between node 2 and node 7 with weight 4,\nan edge between node 2 and node 8 with weight 1,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 3 and node 7 with weight 1,\nan edge between node 4 and node 9 with weight 3,\nan edge between node 4 and node 7 with weight 4,\nan edge between node 5 and node 6 with weight 1,\nan edge between node 5 and node 9 with weight 3,\nan edge between node 5 and node 7 with weight 2,\nan edge between node 6 and node 9 with weight 3,\nan edge between node 6 and node 7 with weight 1,\nan edge between node 6 and node 8 with weight 4,\nan edge between node 7 and node 9 with weight 3,\nan edge between node 7 and node 8 with weight 1,\nan edge between node 8 and node 9 with weight 2.\nQ: Give the shortest path from node 6 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 6 to node 4 is 6,1,4 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_10",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 12, and the edges are:\nan edge between node 0 and node 6 with weight 10,\nan edge between node 0 and node 11 with weight 4,\nan edge between node 0 and node 1 with weight 3,\nan edge between node 0 and node 10 with weight 2,\nan edge between node 0 and node 4 with weight 8,\nan edge between node 1 and node 7 with weight 7,\nan edge between node 1 and node 10 with weight 10,\nan edge between node 1 and node 4 with weight 3,\nan edge between node 2 and node 7 with weight 5,\nan edge between node 2 and node 9 with weight 1,\nan edge between node 2 and node 11 with weight 7,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 2 and node 10 with weight 5,\nan edge between node 2 and node 12 with weight 3,\nan edge between node 3 and node 10 with weight 1,\nan edge between node 3 and node 12 with weight 9,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 5 and node 10 with weight 5,\nan edge between node 6 and node 7 with weight 7,\nan edge between node 6 and node 11 with weight 1,\nan edge between node 6 and node 10 with weight 3,\nan edge between node 7 and node 10 with weight 1,\nan edge between node 7 and node 12 with weight 5,\nan edge between node 8 and node 10 with weight 5,\nan edge between node 10 and node 12 with weight 5.\nQ: Give the shortest path from node 11 to node 1.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 11 to node 1 is 11,0,1 with a total weight of 7"
+  },
+  {
+    "id": "NLG_SH_11",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 5 with weight 3,\nan edge between node 0 and node 3 with weight 4,\nan edge between node 0 and node 6 with weight 1,\nan edge between node 0 and node 4 with weight 1,\nan edge between node 0 and node 2 with weight 2,\nan edge between node 0 and node 1 with weight 4,\nan edge between node 0 and node 7 with weight 1,\nan edge between node 0 and node 8 with weight 1,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 1 and node 6 with weight 4,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 1 and node 2 with weight 2,\nan edge between node 1 and node 7 with weight 2,\nan edge between node 1 and node 8 with weight 1,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 6 with weight 4,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 7 with weight 3,\nan edge between node 2 and node 8 with weight 2,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 3 and node 8 with weight 1,\nan edge between node 4 and node 5 with weight 4,\nan edge between node 4 and node 6 with weight 1,\nan edge between node 4 and node 7 with weight 1,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 6 and node 7 with weight 2,\nan edge between node 6 and node 8 with weight 1,\nan edge between node 7 and node 8 with weight 4.\nQ: Give the shortest path from node 5 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 3 is 5,8,3 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_12",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 10, and the edges are:\nan edge between node 0 and node 8 with weight 3,\nan edge between node 0 and node 5 with weight 6,\nan edge between node 0 and node 10 with weight 8,\nan edge between node 1 and node 8 with weight 5,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 2 and node 10 with weight 1,\nan edge between node 3 and node 6 with weight 6,\nan edge between node 3 and node 10 with weight 8,\nan edge between node 4 and node 9 with weight 10,\nan edge between node 4 and node 6 with weight 2,\nan edge between node 6 and node 9 with weight 6,\nan edge between node 6 and node 8 with weight 10,\nan edge between node 6 and node 10 with weight 5,\nan edge between node 7 and node 10 with weight 9.\nQ: Give the shortest path from node 5 to node 6.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 6 is 5,0,8,6 with a total weight of 19"
+  },
+  {
+    "id": "NLG_SH_13",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 13, and the edges are:\nan edge between node 0 and node 10 with weight 4,\nan edge between node 0 and node 12 with weight 4,\nan edge between node 0 and node 4 with weight 6,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 6 with weight 5,\nan edge between node 1 and node 13 with weight 8,\nan edge between node 2 and node 10 with weight 10,\nan edge between node 2 and node 7 with weight 3,\nan edge between node 2 and node 6 with weight 3,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 4 and node 12 with weight 1,\nan edge between node 4 and node 9 with weight 9,\nan edge between node 4 and node 7 with weight 10,\nan edge between node 5 and node 9 with weight 10,\nan edge between node 5 and node 7 with weight 10,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 6 and node 13 with weight 9,\nan edge between node 7 and node 10 with weight 8,\nan edge between node 7 and node 8 with weight 5,\nan edge between node 9 and node 10 with weight 7,\nan edge between node 9 and node 11 with weight 1.\nQ: Give the shortest path from node 0 to node 9.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 0 to node 9 is 0,10,9 with a total weight of 11"
+  },
+  {
+    "id": "NLG_SH_14",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 4 with weight 1,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 1 and node 4 with weight 1,\nan edge between node 2 and node 5 with weight 1,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 3 and node 5 with weight 4,\nan edge between node 4 and node 5 with weight 3.\nQ: Give the shortest path from node 5 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 0 is 5,4,0 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_15",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 9, and the edges are:\nan edge between node 0 and node 6 with weight 4,\nan edge between node 0 and node 8 with weight 2,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 4 with weight 3,\nan edge between node 0 and node 5 with weight 3,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 0 and node 7 with weight 2,\nan edge between node 1 and node 9 with weight 1,\nan edge between node 1 and node 8 with weight 2,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 1 and node 7 with weight 4,\nan edge between node 2 and node 9 with weight 3,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 5 with weight 1,\nan edge between node 2 and node 3 with weight 1,\nan edge between node 2 and node 7 with weight 2,\nan edge between node 3 and node 9 with weight 4,\nan edge between node 3 and node 6 with weight 4,\nan edge between node 3 and node 8 with weight 4,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 4 and node 9 with weight 3,\nan edge between node 4 and node 6 with weight 1,\nan edge between node 4 and node 8 with weight 1,\nan edge between node 4 and node 5 with weight 4,\nan edge between node 4 and node 7 with weight 2,\nan edge between node 5 and node 9 with weight 4,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 5 and node 7 with weight 2,\nan edge between node 6 and node 9 with weight 2,\nan edge between node 6 and node 7 with weight 1,\nan edge between node 7 and node 8 with weight 2.\nQ: Give the shortest path from node 9 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 9 to node 0 is 9,1,0 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_16",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 7 with weight 1,\nan edge between node 0 and node 2 with weight 4,\nan edge between node 0 and node 6 with weight 1,\nan edge between node 0 and node 1 with weight 3,\nan edge between node 0 and node 5 with weight 2,\nan edge between node 0 and node 4 with weight 2,\nan edge between node 0 and node 8 with weight 2,\nan edge between node 1 and node 7 with weight 1,\nan edge between node 1 and node 2 with weight 2,\nan edge between node 1 and node 6 with weight 1,\nan edge between node 1 and node 3 with weight 1,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 8 with weight 3,\nan edge between node 2 and node 7 with weight 4,\nan edge between node 2 and node 6 with weight 3,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 8 with weight 3,\nan edge between node 3 and node 7 with weight 4,\nan edge between node 3 and node 6 with weight 1,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 3 and node 4 with weight 1,\nan edge between node 3 and node 8 with weight 2,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 4 and node 6 with weight 1,\nan edge between node 4 and node 5 with weight 3,\nan edge between node 4 and node 8 with weight 2,\nan edge between node 5 and node 7 with weight 4,\nan edge between node 5 and node 6 with weight 2,\nan edge between node 5 and node 8 with weight 2,\nan edge between node 6 and node 7 with weight 3,\nan edge between node 6 and node 8 with weight 3,\nan edge between node 7 and node 8 with weight 3.\nQ: Give the shortest path from node 2 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 5 is 2,6,5 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_17",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 12, and the edges are:\nan edge between node 0 and node 5 with weight 10,\nan edge between node 0 and node 4 with weight 10,\nan edge between node 1 and node 7 with weight 3,\nan edge between node 1 and node 5 with weight 5,\nan edge between node 2 and node 12 with weight 3,\nan edge between node 2 and node 7 with weight 8,\nan edge between node 2 and node 4 with weight 10,\nan edge between node 3 and node 5 with weight 5,\nan edge between node 3 and node 10 with weight 6,\nan edge between node 4 and node 7 with weight 8,\nan edge between node 5 and node 12 with weight 3,\nan edge between node 5 and node 6 with weight 2,\nan edge between node 5 and node 9 with weight 9,\nan edge between node 5 and node 7 with weight 1,\nan edge between node 6 and node 12 with weight 2,\nan edge between node 6 and node 9 with weight 7,\nan edge between node 7 and node 11 with weight 6,\nan edge between node 8 and node 10 with weight 1,\nan edge between node 9 and node 11 with weight 2,\nan edge between node 10 and node 11 with weight 6.\nQ: Give the shortest path from node 4 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 5 is 4,7,5 with a total weight of 9"
+  },
+  {
+    "id": "NLG_SH_18",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 16, and the edges are:\nan edge between node 0 and node 13 with weight 5,\nan edge between node 0 and node 1 with weight 5,\nan edge between node 0 and node 14 with weight 5,\nan edge between node 1 and node 2 with weight 2,\nan edge between node 1 and node 12 with weight 10,\nan edge between node 1 and node 4 with weight 1,\nan edge between node 1 and node 6 with weight 2,\nan edge between node 2 and node 12 with weight 5,\nan edge between node 2 and node 11 with weight 4,\nan edge between node 2 and node 14 with weight 2,\nan edge between node 2 and node 8 with weight 9,\nan edge between node 2 and node 7 with weight 7,\nan edge between node 3 and node 16 with weight 7,\nan edge between node 3 and node 8 with weight 5,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 4 and node 9 with weight 5,\nan edge between node 4 and node 16 with weight 7,\nan edge between node 4 and node 14 with weight 4,\nan edge between node 4 and node 10 with weight 6,\nan edge between node 5 and node 8 with weight 3,\nan edge between node 5 and node 10 with weight 4,\nan edge between node 5 and node 7 with weight 2,\nan edge between node 6 and node 11 with weight 5,\nan edge between node 7 and node 13 with weight 6,\nan edge between node 7 and node 12 with weight 3,\nan edge between node 7 and node 15 with weight 6,\nan edge between node 7 and node 10 with weight 8,\nan edge between node 9 and node 10 with weight 3,\nan edge between node 10 and node 15 with weight 10,\nan edge between node 10 and node 16 with weight 7,\nan edge between node 12 and node 15 with weight 4,\nan edge between node 15 and node 16 with weight 2.\nQ: Give the shortest path from node 3 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 3 to node 0 is 3,6,1,0 with a total weight of 9"
+  },
+  {
+    "id": "NLG_SH_19",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 18, and the edges are:\nan edge between node 0 and node 1 with weight 10,\nan edge between node 0 and node 11 with weight 7,\nan edge between node 0 and node 9 with weight 4,\nan edge between node 0 and node 10 with weight 1,\nan edge between node 1 and node 7 with weight 3,\nan edge between node 1 and node 18 with weight 8,\nan edge between node 1 and node 9 with weight 6,\nan edge between node 1 and node 14 with weight 3,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 2 and node 13 with weight 8,\nan edge between node 2 and node 18 with weight 10,\nan edge between node 2 and node 16 with weight 1,\nan edge between node 2 and node 14 with weight 2,\nan edge between node 3 and node 15 with weight 7,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 4 and node 8 with weight 6,\nan edge between node 4 and node 16 with weight 8,\nan edge between node 5 and node 13 with weight 9,\nan edge between node 5 and node 8 with weight 7,\nan edge between node 6 and node 13 with weight 9,\nan edge between node 6 and node 8 with weight 10,\nan edge between node 6 and node 14 with weight 7,\nan edge between node 8 and node 18 with weight 7,\nan edge between node 8 and node 14 with weight 8,\nan edge between node 9 and node 11 with weight 2,\nan edge between node 9 and node 10 with weight 10,\nan edge between node 10 and node 17 with weight 4,\nan edge between node 11 and node 13 with weight 7,\nan edge between node 11 and node 12 with weight 2,\nan edge between node 12 and node 16 with weight 6,\nan edge between node 13 and node 15 with weight 10.\nQ: Give the shortest path from node 18 to node 15.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 18 to node 15 is 18,1,3,15 with a total weight of 17"
+  },
+  {
+    "id": "NLG_SH_20",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 2 with weight 4,\nan edge between node 0 and node 4 with weight 2,\nan edge between node 0 and node 5 with weight 1,\nan edge between node 0 and node 3 with weight 1,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 1 and node 2 with weight 2,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 2 and node 5 with weight 3,\nan edge between node 2 and node 3 with weight 3,\nan edge between node 3 and node 5 with weight 4.\nQ: Give the shortest path from node 4 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 5 is 4,0,5 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_21",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 1 with weight 3,\nan edge between node 0 and node 2 with weight 2,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 2 and node 4 with weight 2,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 4 and node 5 with weight 3.\nQ: Give the shortest path from node 0 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 0 to node 3 is 0,1,3 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_22",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 4, and the edges are:\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 4 with weight 4,\nan edge between node 1 and node 2 with weight 4,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 3 and node 4 with weight 3.\nQ: Give the shortest path from node 2 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 3 is 2,1,3 with a total weight of 6"
+  },
+  {
+    "id": "NLG_SH_23",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 1 with weight 1,\nan edge between node 0 and node 3 with weight 4,\nan edge between node 0 and node 4 with weight 1,\nan edge between node 0 and node 5 with weight 4,\nan edge between node 0 and node 7 with weight 3,\nan edge between node 1 and node 6 with weight 2,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 1 and node 7 with weight 4,\nan edge between node 2 and node 6 with weight 3,\nan edge between node 2 and node 5 with weight 3,\nan edge between node 2 and node 7 with weight 2,\nan edge between node 3 and node 6 with weight 1,\nan edge between node 3 and node 4 with weight 4,\nan edge between node 3 and node 7 with weight 4,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 4 and node 5 with weight 3,\nan edge between node 4 and node 7 with weight 4,\nan edge between node 5 and node 6 with weight 2,\nan edge between node 5 and node 8 with weight 3,\nan edge between node 6 and node 7 with weight 4,\nan edge between node 7 and node 8 with weight 2.\nQ: Give the shortest path from node 1 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 1 to node 3 is 1,6,3 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_24",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 2 with weight 3,\nan edge between node 0 and node 6 with weight 2,\nan edge between node 1 and node 2 with weight 1,\nan edge between node 1 and node 7 with weight 4,\nan edge between node 1 and node 4 with weight 1,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 2 and node 7 with weight 4,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 3 and node 6 with weight 4,\nan edge between node 3 and node 7 with weight 1,\nan edge between node 4 and node 5 with weight 4,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 5 and node 8 with weight 3,\nan edge between node 5 and node 6 with weight 4,\nan edge between node 5 and node 7 with weight 3,\nan edge between node 6 and node 7 with weight 3.\nQ: Give the shortest path from node 2 to node 8.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 8 is 2,3,5,8 with a total weight of 7"
+  },
+  {
+    "id": "NLG_SH_25",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 6, and the edges are:\nan edge between node 0 and node 2 with weight 2,\nan edge between node 0 and node 3 with weight 1,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 6 with weight 2,\nan edge between node 1 and node 3 with weight 3,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 3 and node 4 with weight 2,\nan edge between node 3 and node 5 with weight 3,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 4 and node 5 with weight 3,\nan edge between node 4 and node 6 with weight 2,\nan edge between node 5 and node 6 with weight 4.\nQ: Give the shortest path from node 1 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 1 to node 0 is 1,3,0 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_26",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 19, and the edges are:\nan edge between node 0 and node 17 with weight 8,\nan edge between node 1 and node 13 with weight 5,\nan edge between node 1 and node 5 with weight 6,\nan edge between node 1 and node 14 with weight 9,\nan edge between node 2 and node 5 with weight 5,\nan edge between node 2 and node 6 with weight 9,\nan edge between node 3 and node 13 with weight 2,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 4 and node 9 with weight 7,\nan edge between node 4 and node 12 with weight 9,\nan edge between node 5 and node 10 with weight 8,\nan edge between node 5 and node 15 with weight 10,\nan edge between node 6 and node 10 with weight 4,\nan edge between node 6 and node 7 with weight 10,\nan edge between node 7 and node 11 with weight 9,\nan edge between node 8 and node 18 with weight 6,\nan edge between node 8 and node 16 with weight 7,\nan edge between node 9 and node 17 with weight 7,\nan edge between node 9 and node 15 with weight 10,\nan edge between node 10 and node 11 with weight 4,\nan edge between node 10 and node 15 with weight 4,\nan edge between node 11 and node 13 with weight 2,\nan edge between node 13 and node 19 with weight 5,\nan edge between node 13 and node 17 with weight 2,\nan edge between node 14 and node 19 with weight 4,\nan edge between node 14 and node 15 with weight 9,\nan edge between node 15 and node 18 with weight 2,\nan edge between node 16 and node 19 with weight 9.\nQ: Give the shortest path from node 2 to node 17.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 17 is 2,5,3,13,17 with a total weight of 11"
+  },
+  {
+    "id": "NLG_SH_27",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 7, and the edges are:\nan edge between node 0 and node 6 with weight 1,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 0 and node 7 with weight 4,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 5 with weight 1,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 1 and node 6 with weight 2,\nan edge between node 1 and node 4 with weight 3,\nan edge between node 1 and node 7 with weight 3,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 2 and node 6 with weight 4,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 3 and node 4 with weight 2,\nan edge between node 3 and node 5 with weight 1,\nan edge between node 4 and node 6 with weight 2,\nan edge between node 4 and node 7 with weight 1,\nan edge between node 5 and node 6 with weight 1,\nan edge between node 5 and node 7 with weight 4,\nan edge between node 6 and node 7 with weight 2.\nQ: Give the shortest path from node 2 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 3 is 2,4,3 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_28",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 7, and the edges are:\nan edge between node 0 and node 2 with weight 3,\nan edge between node 0 and node 7 with weight 2,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 0 and node 5 with weight 2,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 6 with weight 1,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 1 and node 4 with weight 3,\nan edge between node 1 and node 7 with weight 4,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 7 with weight 4,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 5 with weight 1,\nan edge between node 2 and node 6 with weight 3,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 3 and node 6 with weight 3,\nan edge between node 4 and node 5 with weight 4,\nan edge between node 4 and node 6 with weight 1,\nan edge between node 5 and node 7 with weight 4,\nan edge between node 5 and node 6 with weight 2,\nan edge between node 6 and node 7 with weight 3.\nQ: Give the shortest path from node 4 to node 7.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 7 is 4,6,7 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_29",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 15, and the edges are:\nan edge between node 0 and node 5 with weight 10,\nan edge between node 1 and node 13 with weight 6,\nan edge between node 1 and node 3 with weight 7,\nan edge between node 1 and node 2 with weight 4,\nan edge between node 1 and node 9 with weight 10,\nan edge between node 1 and node 14 with weight 1,\nan edge between node 1 and node 6 with weight 4,\nan edge between node 2 and node 12 with weight 10,\nan edge between node 2 and node 8 with weight 7,\nan edge between node 2 and node 14 with weight 4,\nan edge between node 3 and node 13 with weight 3,\nan edge between node 3 and node 8 with weight 3,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 4 and node 10 with weight 3,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 4 and node 7 with weight 2,\nan edge between node 4 and node 11 with weight 1,\nan edge between node 5 and node 10 with weight 8,\nan edge between node 5 and node 15 with weight 4,\nan edge between node 5 and node 7 with weight 2,\nan edge between node 6 and node 13 with weight 10,\nan edge between node 6 and node 12 with weight 4,\nan edge between node 6 and node 10 with weight 5,\nan edge between node 6 and node 11 with weight 4,\nan edge between node 8 and node 13 with weight 8,\nan edge between node 8 and node 14 with weight 1,\nan edge between node 11 and node 13 with weight 1,\nan edge between node 11 and node 15 with weight 9,\nan edge between node 11 and node 14 with weight 9,\nan edge between node 13 and node 15 with weight 6,\nan edge between node 13 and node 14 with weight 6.\nQ: Give the shortest path from node 2 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 0 is 2,14,8,4,7,5,0 with a total weight of 22"
+  },
+  {
+    "id": "NLG_SH_30",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 18, and the edges are:\nan edge between node 0 and node 16 with weight 2,\nan edge between node 0 and node 10 with weight 7,\nan edge between node 0 and node 3 with weight 4,\nan edge between node 0 and node 18 with weight 3,\nan edge between node 0 and node 14 with weight 9,\nan edge between node 1 and node 3 with weight 1,\nan edge between node 2 and node 5 with weight 3,\nan edge between node 2 and node 7 with weight 10,\nan edge between node 2 and node 14 with weight 9,\nan edge between node 2 and node 15 with weight 1,\nan edge between node 2 and node 12 with weight 4,\nan edge between node 3 and node 9 with weight 1,\nan edge between node 4 and node 13 with weight 3,\nan edge between node 4 and node 8 with weight 8,\nan edge between node 4 and node 18 with weight 9,\nan edge between node 4 and node 14 with weight 3,\nan edge between node 4 and node 15 with weight 5,\nan edge between node 4 and node 12 with weight 2,\nan edge between node 5 and node 16 with weight 4,\nan edge between node 5 and node 9 with weight 7,\nan edge between node 5 and node 6 with weight 10,\nan edge between node 5 and node 11 with weight 1,\nan edge between node 6 and node 10 with weight 8,\nan edge between node 7 and node 13 with weight 8,\nan edge between node 7 and node 10 with weight 2,\nan edge between node 7 and node 9 with weight 4,\nan edge between node 8 and node 9 with weight 9,\nan edge between node 8 and node 14 with weight 8,\nan edge between node 9 and node 10 with weight 3,\nan edge between node 10 and node 13 with weight 2,\nan edge between node 10 and node 14 with weight 7,\nan edge between node 10 and node 12 with weight 2,\nan edge between node 11 and node 13 with weight 1,\nan edge between node 11 and node 16 with weight 2,\nan edge between node 11 and node 18 with weight 3,\nan edge between node 11 and node 17 with weight 8,\nan edge between node 12 and node 13 with weight 1,\nan edge between node 12 and node 16 with weight 10,\nan edge between node 12 and node 14 with weight 9,\nan edge between node 12 and node 15 with weight 4,\nan edge between node 13 and node 15 with weight 1,\nan edge between node 14 and node 17 with weight 5,\nan edge between node 16 and node 17 with weight 10.\nQ: Give the shortest path from node 15 to node 1.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 15 to node 1 is 15,13,10,9,3,1 with a total weight of 8"
+  },
+  {
+    "id": "NLG_SH_31",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 10, and the edges are:\nan edge between node 0 and node 5 with weight 10,\nan edge between node 0 and node 7 with weight 2,\nan edge between node 0 and node 3 with weight 5,\nan edge between node 0 and node 2 with weight 7,\nan edge between node 1 and node 5 with weight 6,\nan edge between node 1 and node 9 with weight 5,\nan edge between node 1 and node 8 with weight 9,\nan edge between node 1 and node 6 with weight 3,\nan edge between node 2 and node 9 with weight 7,\nan edge between node 4 and node 7 with weight 2,\nan edge between node 5 and node 9 with weight 4,\nan edge between node 5 and node 6 with weight 8,\nan edge between node 6 and node 9 with weight 3,\nan edge between node 6 and node 8 with weight 6,\nan edge between node 6 and node 10 with weight 3,\nan edge between node 7 and node 9 with weight 5,\nan edge between node 8 and node 10 with weight 5.\nQ: Give the shortest path from node 10 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 10 to node 3 is 10,6,9,7,0,3 with a total weight of 18"
+  },
+  {
+    "id": "NLG_SH_32",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 4 with weight 4,\nan edge between node 0 and node 3 with weight 1,\nan edge between node 0 and node 1 with weight 1,\nan edge between node 0 and node 5 with weight 1,\nan edge between node 0 and node 2 with weight 2,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 3 with weight 1,\nan edge between node 1 and node 5 with weight 2,\nan edge between node 1 and node 2 with weight 4,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 5 with weight 3,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 3 and node 5 with weight 3.\nQ: Give the shortest path from node 4 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 5 is 4,1,5 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_33",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 4 with weight 3,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 0 and node 8 with weight 2,\nan edge between node 0 and node 6 with weight 1,\nan edge between node 0 and node 2 with weight 1,\nan edge between node 0 and node 7 with weight 3,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 3 with weight 3,\nan edge between node 1 and node 8 with weight 2,\nan edge between node 1 and node 6 with weight 3,\nan edge between node 1 and node 2 with weight 1,\nan edge between node 1 and node 7 with weight 3,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 2 and node 3 with weight 3,\nan edge between node 2 and node 8 with weight 3,\nan edge between node 2 and node 6 with weight 1,\nan edge between node 2 and node 7 with weight 4,\nan edge between node 3 and node 5 with weight 1,\nan edge between node 3 and node 4 with weight 4,\nan edge between node 3 and node 8 with weight 1,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 4 and node 6 with weight 1,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 5 and node 6 with weight 1,\nan edge between node 5 and node 7 with weight 4,\nan edge between node 6 and node 8 with weight 3,\nan edge between node 6 and node 7 with weight 1.\nQ: Give the shortest path from node 5 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 4 is 5,6,4 with a total weight of 2"
+  },
+  {
+    "id": "NLG_SH_34",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 13, and the edges are:\nan edge between node 0 and node 1 with weight 1,\nan edge between node 1 and node 5 with weight 7,\nan edge between node 1 and node 4 with weight 8,\nan edge between node 2 and node 5 with weight 5,\nan edge between node 3 and node 12 with weight 5,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 3 and node 4 with weight 4,\nan edge between node 4 and node 11 with weight 9,\nan edge between node 4 and node 13 with weight 10,\nan edge between node 5 and node 11 with weight 3,\nan edge between node 5 and node 8 with weight 5,\nan edge between node 6 and node 12 with weight 6,\nan edge between node 7 and node 12 with weight 10,\nan edge between node 8 and node 9 with weight 8,\nan edge between node 8 and node 12 with weight 3,\nan edge between node 9 and node 12 with weight 9,\nan edge between node 9 and node 10 with weight 10,\nan edge between node 10 and node 13 with weight 4,\nan edge between node 11 and node 12 with weight 3.\nQ: Give the shortest path from node 7 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 7 to node 0 is 7,12,11,5,1,0 with a total weight of 24"
+  },
+  {
+    "id": "NLG_SH_35",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 12, and the edges are:\nan edge between node 0 and node 1 with weight 4,\nan edge between node 1 and node 8 with weight 9,\nan edge between node 1 and node 10 with weight 6,\nan edge between node 2 and node 7 with weight 2,\nan edge between node 2 and node 8 with weight 6,\nan edge between node 3 and node 11 with weight 4,\nan edge between node 3 and node 7 with weight 4,\nan edge between node 3 and node 8 with weight 6,\nan edge between node 4 and node 5 with weight 1,\nan edge between node 4 and node 8 with weight 4,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 5 and node 12 with weight 4,\nan edge between node 5 and node 8 with weight 1,\nan edge between node 5 and node 10 with weight 6,\nan edge between node 6 and node 12 with weight 2,\nan edge between node 7 and node 11 with weight 10,\nan edge between node 8 and node 9 with weight 8,\nan edge between node 8 and node 10 with weight 5,\nan edge between node 9 and node 12 with weight 7,\nan edge between node 11 and node 12 with weight 4.\nQ: Give the shortest path from node 2 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 5 is 2,8,5 with a total weight of 7"
+  },
+  {
+    "id": "NLG_SH_36",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 7, and the edges are:\nan edge between node 0 and node 7 with weight 4,\nan edge between node 0 and node 3 with weight 1,\nan edge between node 0 and node 2 with weight 3,\nan edge between node 0 and node 1 with weight 4,\nan edge between node 0 and node 4 with weight 4,\nan edge between node 0 and node 5 with weight 2,\nan edge between node 0 and node 6 with weight 2,\nan edge between node 1 and node 7 with weight 4,\nan edge between node 1 and node 3 with weight 3,\nan edge between node 1 and node 2 with weight 2,\nan edge between node 1 and node 4 with weight 1,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 6 with weight 3,\nan edge between node 2 and node 7 with weight 3,\nan edge between node 2 and node 3 with weight 2,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 2 and node 5 with weight 1,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 3 and node 5 with weight 3,\nan edge between node 3 and node 6 with weight 1,\nan edge between node 4 and node 7 with weight 4,\nan edge between node 4 and node 5 with weight 1,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 5 and node 7 with weight 2,\nan edge between node 6 and node 7 with weight 3.\nQ: Give the shortest path from node 5 to node 6.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 6 is 5,2,6 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_37",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 7 with weight 2,\nan edge between node 0 and node 8 with weight 2,\nan edge between node 0 and node 4 with weight 3,\nan edge between node 0 and node 2 with weight 3,\nan edge between node 0 and node 1 with weight 4,\nan edge between node 0 and node 3 with weight 3,\nan edge between node 1 and node 5 with weight 1,\nan edge between node 1 and node 8 with weight 4,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 1 and node 6 with weight 4,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 2 and node 3 with weight 3,\nan edge between node 3 and node 5 with weight 1,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 3 and node 8 with weight 1,\nan edge between node 3 and node 4 with weight 1,\nan edge between node 5 and node 8 with weight 3,\nan edge between node 5 and node 6 with weight 4,\nan edge between node 6 and node 7 with weight 4,\nan edge between node 6 and node 8 with weight 2.\nQ: Give the shortest path from node 5 to node 7.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 7 is 5,3,7 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_38",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 7, and the edges are:\nan edge between node 0 and node 4 with weight 3,\nan edge between node 0 and node 1 with weight 3,\nan edge between node 0 and node 2 with weight 4,\nan edge between node 0 and node 7 with weight 4,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 6 with weight 1,\nan edge between node 1 and node 7 with weight 3,\nan edge between node 1 and node 3 with weight 1,\nan edge between node 2 and node 6 with weight 1,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 2 and node 3 with weight 3,\nan edge between node 3 and node 4 with weight 4,\nan edge between node 3 and node 6 with weight 4,\nan edge between node 3 and node 5 with weight 4,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 4 and node 5 with weight 2,\nan edge between node 4 and node 7 with weight 4,\nan edge between node 5 and node 6 with weight 1,\nan edge between node 5 and node 7 with weight 2,\nan edge between node 6 and node 7 with weight 4.\nQ: Give the shortest path from node 4 to node 6.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 6 is 4,1,6 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_39",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 6, and the edges are:\nan edge between node 0 and node 6 with weight 4,\nan edge between node 0 and node 1 with weight 4,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 1 and node 6 with weight 1,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 3 with weight 1,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 3 and node 4 with weight 3,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 4 and node 6 with weight 4,\nan edge between node 5 and node 6 with weight 4.\nQ: Give the shortest path from node 5 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 4 is 5,3,4 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_40",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 13, and the edges are:\nan edge between node 0 and node 11 with weight 8,\nan edge between node 0 and node 12 with weight 6,\nan edge between node 0 and node 13 with weight 5,\nan edge between node 1 and node 9 with weight 9,\nan edge between node 1 and node 6 with weight 2,\nan edge between node 1 and node 5 with weight 4,\nan edge between node 1 and node 8 with weight 7,\nan edge between node 2 and node 9 with weight 8,\nan edge between node 2 and node 6 with weight 1,\nan edge between node 2 and node 4 with weight 9,\nan edge between node 3 and node 6 with weight 8,\nan edge between node 3 and node 12 with weight 3,\nan edge between node 3 and node 10 with weight 10,\nan edge between node 5 and node 8 with weight 9,\nan edge between node 6 and node 9 with weight 8,\nan edge between node 6 and node 7 with weight 3,\nan edge between node 7 and node 12 with weight 9.\nQ: Give the shortest path from node 11 to node 9.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 11 to node 9 is 11,0,12,3,6,9 with a total weight of 33"
+  },
+  {
+    "id": "NLG_SH_41",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 17, and the edges are:\nan edge between node 0 and node 6 with weight 6,\nan edge between node 0 and node 12 with weight 10,\nan edge between node 0 and node 11 with weight 5,\nan edge between node 0 and node 2 with weight 2,\nan edge between node 0 and node 10 with weight 2,\nan edge between node 1 and node 6 with weight 9,\nan edge between node 1 and node 11 with weight 3,\nan edge between node 1 and node 9 with weight 9,\nan edge between node 1 and node 10 with weight 5,\nan edge between node 2 and node 11 with weight 8,\nan edge between node 2 and node 17 with weight 8,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 3 and node 5 with weight 8,\nan edge between node 4 and node 16 with weight 4,\nan edge between node 4 and node 10 with weight 7,\nan edge between node 5 and node 11 with weight 4,\nan edge between node 5 and node 9 with weight 6,\nan edge between node 5 and node 17 with weight 5,\nan edge between node 6 and node 16 with weight 3,\nan edge between node 7 and node 15 with weight 6,\nan edge between node 7 and node 9 with weight 4,\nan edge between node 8 and node 9 with weight 7,\nan edge between node 9 and node 16 with weight 1,\nan edge between node 9 and node 10 with weight 1,\nan edge between node 10 and node 13 with weight 5,\nan edge between node 11 and node 13 with weight 6,\nan edge between node 11 and node 16 with weight 5,\nan edge between node 11 and node 17 with weight 10,\nan edge between node 12 and node 13 with weight 1,\nan edge between node 12 and node 16 with weight 10,\nan edge between node 12 and node 17 with weight 4,\nan edge between node 14 and node 16 with weight 4.\nQ: Give the shortest path from node 1 to node 12.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 1 to node 12 is 1,11,13,12 with a total weight of 10"
+  },
+  {
+    "id": "NLG_SH_42",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 8, and the edges are:\nan edge between node 0 and node 6 with weight 2,\nan edge between node 0 and node 8 with weight 1,\nan edge between node 0 and node 2 with weight 4,\nan edge between node 0 and node 1 with weight 1,\nan edge between node 0 and node 4 with weight 1,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 1 and node 7 with weight 2,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 2 and node 8 with weight 1,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 3 with weight 3,\nan edge between node 3 and node 7 with weight 4,\nan edge between node 3 and node 5 with weight 2,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 4 and node 5 with weight 3,\nan edge between node 5 and node 6 with weight 4,\nan edge between node 6 and node 8 with weight 1,\nan edge between node 6 and node 7 with weight 1,\nan edge between node 7 and node 8 with weight 4.\nQ: Give the shortest path from node 6 to node 1.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 6 to node 1 is 6,0,1 with a total weight of 3"
+  },
+  {
+    "id": "NLG_SH_43",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 16, and the edges are:\nan edge between node 0 and node 7 with weight 8,\nan edge between node 0 and node 2 with weight 5,\nan edge between node 0 and node 15 with weight 8,\nan edge between node 1 and node 6 with weight 6,\nan edge between node 1 and node 7 with weight 2,\nan edge between node 1 and node 2 with weight 9,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 1 and node 11 with weight 8,\nan edge between node 2 and node 8 with weight 9,\nan edge between node 2 and node 4 with weight 8,\nan edge between node 2 and node 15 with weight 8,\nan edge between node 3 and node 4 with weight 7,\nan edge between node 3 and node 12 with weight 1,\nan edge between node 3 and node 10 with weight 1,\nan edge between node 4 and node 9 with weight 8,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 4 and node 14 with weight 3,\nan edge between node 4 and node 5 with weight 5,\nan edge between node 5 and node 8 with weight 6,\nan edge between node 5 and node 6 with weight 1,\nan edge between node 5 and node 12 with weight 9,\nan edge between node 5 and node 11 with weight 4,\nan edge between node 6 and node 15 with weight 8,\nan edge between node 7 and node 15 with weight 1,\nan edge between node 7 and node 11 with weight 10,\nan edge between node 9 and node 13 with weight 5,\nan edge between node 10 and node 12 with weight 6,\nan edge between node 10 and node 11 with weight 9,\nan edge between node 11 and node 14 with weight 5,\nan edge between node 13 and node 16 with weight 9,\nan edge between node 13 and node 14 with weight 9,\nan edge between node 15 and node 16 with weight 5.\nQ: Give the shortest path from node 3 to node 16.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 3 to node 16 is 3,1,7,15,16 with a total weight of 10"
+  },
+  {
+    "id": "NLG_SH_44",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 9, and the edges are:\nan edge between node 0 and node 5 with weight 2,\nan edge between node 0 and node 2 with weight 1,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 9 with weight 1,\nan edge between node 0 and node 8 with weight 4,\nan edge between node 0 and node 7 with weight 3,\nan edge between node 0 and node 6 with weight 2,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 2 with weight 1,\nan edge between node 1 and node 8 with weight 4,\nan edge between node 1 and node 6 with weight 3,\nan edge between node 2 and node 3 with weight 3,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 2 and node 9 with weight 3,\nan edge between node 2 and node 7 with weight 3,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 3 and node 8 with weight 3,\nan edge between node 4 and node 5 with weight 3,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 4 and node 6 with weight 1,\nan edge between node 5 and node 9 with weight 3,\nan edge between node 5 and node 7 with weight 3,\nan edge between node 5 and node 6 with weight 2,\nan edge between node 6 and node 9 with weight 1,\nan edge between node 7 and node 9 with weight 4,\nan edge between node 7 and node 8 with weight 3,\nan edge between node 8 and node 9 with weight 1.\nQ: Give the shortest path from node 5 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 5 to node 3 is 5,9,3 with a total weight of 6"
+  },
+  {
+    "id": "NLG_SH_45",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 18, and the edges are:\nan edge between node 0 and node 13 with weight 10,\nan edge between node 0 and node 2 with weight 9,\nan edge between node 0 and node 8 with weight 10,\nan edge between node 0 and node 1 with weight 2,\nan edge between node 0 and node 12 with weight 4,\nan edge between node 0 and node 14 with weight 7,\nan edge between node 1 and node 13 with weight 4,\nan edge between node 1 and node 2 with weight 7,\nan edge between node 1 and node 15 with weight 5,\nan edge between node 1 and node 16 with weight 1,\nan edge between node 1 and node 11 with weight 9,\nan edge between node 2 and node 15 with weight 1,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 2 and node 11 with weight 6,\nan edge between node 2 and node 3 with weight 4,\nan edge between node 3 and node 17 with weight 1,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 3 and node 12 with weight 5,\nan edge between node 4 and node 8 with weight 4,\nan edge between node 4 and node 5 with weight 5,\nan edge between node 4 and node 10 with weight 3,\nan edge between node 6 and node 12 with weight 5,\nan edge between node 7 and node 8 with weight 2,\nan edge between node 7 and node 11 with weight 2,\nan edge between node 7 and node 14 with weight 4,\nan edge between node 8 and node 11 with weight 2,\nan edge between node 8 and node 10 with weight 7,\nan edge between node 8 and node 14 with weight 3,\nan edge between node 9 and node 10 with weight 3,\nan edge between node 9 and node 14 with weight 4,\nan edge between node 10 and node 16 with weight 9,\nan edge between node 10 and node 11 with weight 5,\nan edge between node 10 and node 14 with weight 4,\nan edge between node 12 and node 13 with weight 8,\nan edge between node 12 and node 16 with weight 5,\nan edge between node 13 and node 17 with weight 8,\nan edge between node 13 and node 16 with weight 10,\nan edge between node 15 and node 18 with weight 3,\nan edge between node 16 and node 17 with weight 5.\nQ: Give the shortest path from node 3 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 3 to node 5 is 3,2,11,8,4,5 with a total weight of 21"
+  },
+  {
+    "id": "NLG_SH_46",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 16, and the edges are:\nan edge between node 0 and node 7 with weight 1,\nan edge between node 0 and node 11 with weight 3,\nan edge between node 1 and node 13 with weight 8,\nan edge between node 1 and node 9 with weight 3,\nan edge between node 1 and node 8 with weight 3,\nan edge between node 2 and node 14 with weight 4,\nan edge between node 3 and node 11 with weight 8,\nan edge between node 3 and node 4 with weight 1,\nan edge between node 3 and node 9 with weight 3,\nan edge between node 3 and node 16 with weight 9,\nan edge between node 4 and node 11 with weight 6,\nan edge between node 4 and node 13 with weight 9,\nan edge between node 4 and node 5 with weight 1,\nan edge between node 4 and node 16 with weight 8,\nan edge between node 5 and node 12 with weight 3,\nan edge between node 5 and node 10 with weight 1,\nan edge between node 6 and node 13 with weight 9,\nan edge between node 6 and node 10 with weight 3,\nan edge between node 6 and node 16 with weight 1,\nan edge between node 7 and node 16 with weight 9,\nan edge between node 9 and node 13 with weight 1,\nan edge between node 10 and node 14 with weight 1,\nan edge between node 12 and node 13 with weight 1,\nan edge between node 13 and node 15 with weight 4,\nan edge between node 13 and node 16 with weight 10.\nQ: Give the shortest path from node 2 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 0 is 2,14,10,5,4,11,0 with a total weight of 16"
+  },
+  {
+    "id": "NLG_SH_47",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 11, and the edges are:\nan edge between node 0 and node 6 with weight 4,\nan edge between node 0 and node 5 with weight 3,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 1 and node 5 with weight 8,\nan edge between node 2 and node 8 with weight 9,\nan edge between node 2 and node 11 with weight 7,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 3 and node 11 with weight 4,\nan edge between node 4 and node 11 with weight 9,\nan edge between node 5 and node 10 with weight 3,\nan edge between node 6 and node 10 with weight 7,\nan edge between node 7 and node 10 with weight 3,\nan edge between node 8 and node 9 with weight 2,\nan edge between node 9 and node 11 with weight 4.\nQ: Give the shortest path from node 0 to node 9.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 0 to node 9 is 0,5,2,8,9 with a total weight of 16"
+  },
+  {
+    "id": "NLG_SH_48",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 14, and the edges are:\nan edge between node 0 and node 9 with weight 6,\nan edge between node 0 and node 14 with weight 8,\nan edge between node 0 and node 5 with weight 4,\nan edge between node 0 and node 13 with weight 5,\nan edge between node 1 and node 9 with weight 9,\nan edge between node 1 and node 6 with weight 4,\nan edge between node 2 and node 8 with weight 10,\nan edge between node 2 and node 4 with weight 4,\nan edge between node 2 and node 3 with weight 6,\nan edge between node 4 and node 10 with weight 6,\nan edge between node 4 and node 8 with weight 7,\nan edge between node 4 and node 6 with weight 5,\nan edge between node 5 and node 10 with weight 8,\nan edge between node 5 and node 9 with weight 9,\nan edge between node 6 and node 8 with weight 8,\nan edge between node 7 and node 11 with weight 4,\nan edge between node 8 and node 12 with weight 5,\nan edge between node 8 and node 9 with weight 3,\nan edge between node 8 and node 13 with weight 10,\nan edge between node 9 and node 14 with weight 5,\nan edge between node 10 and node 12 with weight 1,\nan edge between node 10 and node 11 with weight 4,\nan edge between node 10 and node 14 with weight 4,\nan edge between node 12 and node 14 with weight 9.\nQ: Give the shortest path from node 2 to node 7.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 7 is 2,4,10,11,7 with a total weight of 18"
+  },
+  {
+    "id": "NLG_SH_49",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 18, and the edges are:\nan edge between node 0 and node 1 with weight 9,\nan edge between node 0 and node 2 with weight 9,\nan edge between node 0 and node 7 with weight 5,\nan edge between node 0 and node 5 with weight 1,\nan edge between node 0 and node 11 with weight 5,\nan edge between node 0 and node 3 with weight 10,\nan edge between node 1 and node 17 with weight 1,\nan edge between node 2 and node 17 with weight 4,\nan edge between node 2 and node 6 with weight 2,\nan edge between node 2 and node 8 with weight 8,\nan edge between node 2 and node 9 with weight 7,\nan edge between node 3 and node 14 with weight 8,\nan edge between node 3 and node 8 with weight 7,\nan edge between node 3 and node 7 with weight 2,\nan edge between node 4 and node 18 with weight 4,\nan edge between node 5 and node 18 with weight 1,\nan edge between node 5 and node 14 with weight 5,\nan edge between node 5 and node 8 with weight 1,\nan edge between node 5 and node 7 with weight 6,\nan edge between node 5 and node 11 with weight 6,\nan edge between node 6 and node 7 with weight 10,\nan edge between node 7 and node 14 with weight 9,\nan edge between node 8 and node 13 with weight 8,\nan edge between node 8 and node 12 with weight 8,\nan edge between node 9 and node 14 with weight 4,\nan edge between node 9 and node 11 with weight 3,\nan edge between node 9 and node 12 with weight 10,\nan edge between node 10 and node 16 with weight 6,\nan edge between node 10 and node 13 with weight 10,\nan edge between node 11 and node 18 with weight 1,\nan edge between node 11 and node 17 with weight 3,\nan edge between node 12 and node 18 with weight 4,\nan edge between node 12 and node 16 with weight 6,\nan edge between node 12 and node 13 with weight 9,\nan edge between node 15 and node 16 with weight 1.\nQ: Give the shortest path from node 1 to node 15.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 1 to node 15 is 1,17,11,18,12,16,15 with a total weight of 16"
+  },
+  {
+    "id": "NLG_SH_50",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 16, and the edges are:\nan edge between node 0 and node 3 with weight 9,\nan edge between node 0 and node 2 with weight 2,\nan edge between node 1 and node 8 with weight 7,\nan edge between node 1 and node 15 with weight 8,\nan edge between node 1 and node 16 with weight 2,\nan edge between node 2 and node 6 with weight 6,\nan edge between node 2 and node 10 with weight 6,\nan edge between node 3 and node 5 with weight 1,\nan edge between node 3 and node 15 with weight 9,\nan edge between node 3 and node 4 with weight 8,\nan edge between node 4 and node 13 with weight 6,\nan edge between node 4 and node 11 with weight 2,\nan edge between node 4 and node 5 with weight 10,\nan edge between node 4 and node 10 with weight 1,\nan edge between node 5 and node 15 with weight 10,\nan edge between node 6 and node 12 with weight 6,\nan edge between node 6 and node 7 with weight 3,\nan edge between node 7 and node 13 with weight 9,\nan edge between node 7 and node 16 with weight 4,\nan edge between node 7 and node 10 with weight 9,\nan edge between node 7 and node 9 with weight 6,\nan edge between node 8 and node 11 with weight 5,\nan edge between node 8 and node 9 with weight 1,\nan edge between node 9 and node 12 with weight 1,\nan edge between node 9 and node 16 with weight 6,\nan edge between node 9 and node 10 with weight 7,\nan edge between node 12 and node 16 with weight 1,\nan edge between node 14 and node 16 with weight 10.\nQ: Give the shortest path from node 14 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 14 to node 0 is 14,16,12,6,2,0 with a total weight of 25"
+  },
+  {
+    "id": "NLG_SH_51",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 17, and the edges are:\nan edge between node 0 and node 8 with weight 3,\nan edge between node 0 and node 11 with weight 7,\nan edge between node 0 and node 4 with weight 1,\nan edge between node 0 and node 12 with weight 8,\nan edge between node 0 and node 2 with weight 5,\nan edge between node 1 and node 13 with weight 5,\nan edge between node 1 and node 4 with weight 7,\nan edge between node 1 and node 5 with weight 10,\nan edge between node 1 and node 6 with weight 3,\nan edge between node 1 and node 12 with weight 7,\nan edge between node 2 and node 11 with weight 4,\nan edge between node 2 and node 10 with weight 8,\nan edge between node 2 and node 15 with weight 8,\nan edge between node 2 and node 12 with weight 1,\nan edge between node 3 and node 10 with weight 10,\nan edge between node 3 and node 4 with weight 6,\nan edge between node 3 and node 17 with weight 6,\nan edge between node 4 and node 16 with weight 8,\nan edge between node 4 and node 10 with weight 10,\nan edge between node 4 and node 5 with weight 5,\nan edge between node 4 and node 15 with weight 8,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 5 and node 17 with weight 1,\nan edge between node 5 and node 7 with weight 1,\nan edge between node 5 and node 12 with weight 1,\nan edge between node 6 and node 12 with weight 5,\nan edge between node 7 and node 13 with weight 5,\nan edge between node 7 and node 11 with weight 2,\nan edge between node 7 and node 14 with weight 3,\nan edge between node 8 and node 10 with weight 2,\nan edge between node 8 and node 9 with weight 5,\nan edge between node 8 and node 12 with weight 4,\nan edge between node 9 and node 10 with weight 5,\nan edge between node 9 and node 17 with weight 5,\nan edge between node 10 and node 13 with weight 2,\nan edge between node 10 and node 16 with weight 5,\nan edge between node 10 and node 11 with weight 3,\nan edge between node 10 and node 14 with weight 7,\nan edge between node 10 and node 15 with weight 2,\nan edge between node 11 and node 15 with weight 8,\nan edge between node 12 and node 15 with weight 5,\nan edge between node 14 and node 17 with weight 5,\nan edge between node 15 and node 16 with weight 10.\nQ: Give the shortest path from node 8 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 8 to node 4 is 8,0,4 with a total weight of 4"
+  },
+  {
+    "id": "NLG_SH_52",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 19, and the edges are:\nan edge between node 0 and node 17 with weight 3,\nan edge between node 0 and node 1 with weight 3,\nan edge between node 0 and node 6 with weight 9,\nan edge between node 0 and node 11 with weight 4,\nan edge between node 0 and node 4 with weight 2,\nan edge between node 0 and node 18 with weight 7,\nan edge between node 1 and node 5 with weight 6,\nan edge between node 1 and node 10 with weight 7,\nan edge between node 1 and node 8 with weight 8,\nan edge between node 1 and node 4 with weight 4,\nan edge between node 1 and node 18 with weight 3,\nan edge between node 2 and node 14 with weight 10,\nan edge between node 2 and node 9 with weight 10,\nan edge between node 3 and node 6 with weight 10,\nan edge between node 3 and node 8 with weight 4,\nan edge between node 3 and node 9 with weight 9,\nan edge between node 3 and node 7 with weight 3,\nan edge between node 3 and node 16 with weight 10,\nan edge between node 3 and node 19 with weight 7,\nan edge between node 3 and node 18 with weight 2,\nan edge between node 4 and node 13 with weight 10,\nan edge between node 4 and node 10 with weight 9,\nan edge between node 4 and node 7 with weight 7,\nan edge between node 4 and node 19 with weight 9,\nan edge between node 5 and node 10 with weight 4,\nan edge between node 5 and node 18 with weight 9,\nan edge between node 6 and node 17 with weight 2,\nan edge between node 6 and node 9 with weight 6,\nan edge between node 6 and node 16 with weight 5,\nan edge between node 6 and node 12 with weight 7,\nan edge between node 7 and node 17 with weight 2,\nan edge between node 7 and node 13 with weight 10,\nan edge between node 7 and node 14 with weight 1,\nan edge between node 7 and node 8 with weight 4,\nan edge between node 8 and node 16 with weight 2,\nan edge between node 8 and node 12 with weight 2,\nan edge between node 9 and node 17 with weight 3,\nan edge between node 9 and node 11 with weight 2,\nan edge between node 9 and node 19 with weight 8,\nan edge between node 10 and node 17 with weight 6,\nan edge between node 10 and node 18 with weight 10,\nan edge between node 11 and node 14 with weight 6,\nan edge between node 11 and node 12 with weight 2,\nan edge between node 12 and node 13 with weight 4,\nan edge between node 13 and node 14 with weight 9,\nan edge between node 14 and node 15 with weight 9.\nQ: Give the shortest path from node 15 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 15 to node 5 is 15,14,7,17,10,5 with a total weight of 22"
+  },
+  {
+    "id": "NLG_SH_53",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 9, and the edges are:\nan edge between node 0 and node 5 with weight 4,\nan edge between node 0 and node 3 with weight 2,\nan edge between node 0 and node 8 with weight 2,\nan edge between node 0 and node 7 with weight 4,\nan edge between node 0 and node 2 with weight 2,\nan edge between node 0 and node 1 with weight 1,\nan edge between node 1 and node 4 with weight 2,\nan edge between node 1 and node 5 with weight 1,\nan edge between node 1 and node 3 with weight 2,\nan edge between node 1 and node 8 with weight 4,\nan edge between node 1 and node 9 with weight 4,\nan edge between node 1 and node 2 with weight 4,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 2 and node 8 with weight 4,\nan edge between node 2 and node 7 with weight 2,\nan edge between node 3 and node 4 with weight 4,\nan edge between node 3 and node 6 with weight 2,\nan edge between node 4 and node 5 with weight 1,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 4 and node 9 with weight 4,\nan edge between node 5 and node 8 with weight 2,\nan edge between node 5 and node 7 with weight 1,\nan edge between node 5 and node 9 with weight 1,\nan edge between node 5 and node 6 with weight 2,\nan edge between node 6 and node 8 with weight 3,\nan edge between node 6 and node 7 with weight 3,\nan edge between node 7 and node 9 with weight 2.\nQ: Give the shortest path from node 4 to node 7.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 7 is 4,5,7 with a total weight of 2"
+  },
+  {
+    "id": "NLG_SH_54",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 5, and the edges are:\nan edge between node 0 and node 1 with weight 1,\nan edge between node 0 and node 5 with weight 4,\nan edge between node 0 and node 2 with weight 1,\nan edge between node 1 and node 4 with weight 1,\nan edge between node 1 and node 3 with weight 4,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 2 and node 4 with weight 2,\nan edge between node 3 and node 4 with weight 1.\nQ: Give the shortest path from node 4 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 0 is 4,1,0 with a total weight of 2"
+  },
+  {
+    "id": "NLG_SH_55",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 15, and the edges are:\nan edge between node 0 and node 9 with weight 10,\nan edge between node 0 and node 5 with weight 5,\nan edge between node 0 and node 10 with weight 7,\nan edge between node 0 and node 12 with weight 5,\nan edge between node 0 and node 2 with weight 10,\nan edge between node 1 and node 9 with weight 8,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 1 and node 14 with weight 4,\nan edge between node 2 and node 5 with weight 10,\nan edge between node 2 and node 10 with weight 1,\nan edge between node 2 and node 12 with weight 3,\nan edge between node 2 and node 8 with weight 3,\nan edge between node 3 and node 7 with weight 9,\nan edge between node 3 and node 14 with weight 6,\nan edge between node 4 and node 9 with weight 8,\nan edge between node 4 and node 5 with weight 1,\nan edge between node 4 and node 6 with weight 3,\nan edge between node 4 and node 8 with weight 3,\nan edge between node 5 and node 15 with weight 6,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 5 and node 11 with weight 4,\nan edge between node 6 and node 10 with weight 10,\nan edge between node 6 and node 8 with weight 1,\nan edge between node 6 and node 11 with weight 5,\nan edge between node 8 and node 10 with weight 10,\nan edge between node 8 and node 14 with weight 4,\nan edge between node 8 and node 11 with weight 8,\nan edge between node 11 and node 13 with weight 2,\nan edge between node 12 and node 13 with weight 2.\nQ: Give the shortest path from node 13 to node 7.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 13 to node 7 is 13,12,2,8,14,3,7 with a total weight of 27"
+  },
+  {
+    "id": "NLG_SH_56",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 14, and the edges are:\nan edge between node 0 and node 8 with weight 8,\nan edge between node 1 and node 11 with weight 1,\nan edge between node 1 and node 4 with weight 5,\nan edge between node 1 and node 2 with weight 1,\nan edge between node 2 and node 4 with weight 2,\nan edge between node 3 and node 6 with weight 10,\nan edge between node 3 and node 12 with weight 6,\nan edge between node 4 and node 10 with weight 4,\nan edge between node 5 and node 6 with weight 8,\nan edge between node 5 and node 14 with weight 3,\nan edge between node 6 and node 14 with weight 8,\nan edge between node 6 and node 13 with weight 9,\nan edge between node 7 and node 13 with weight 3,\nan edge between node 8 and node 11 with weight 6,\nan edge between node 8 and node 9 with weight 4,\nan edge between node 9 and node 10 with weight 7,\nan edge between node 11 and node 12 with weight 9.\nQ: Give the shortest path from node 9 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 9 to node 3 is 9,8,11,12,3 with a total weight of 25"
+  },
+  {
+    "id": "NLG_SH_57",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 19, and the edges are:\nan edge between node 0 and node 13 with weight 6,\nan edge between node 1 and node 17 with weight 2,\nan edge between node 1 and node 11 with weight 5,\nan edge between node 1 and node 9 with weight 4,\nan edge between node 2 and node 5 with weight 10,\nan edge between node 3 and node 11 with weight 2,\nan edge between node 3 and node 12 with weight 2,\nan edge between node 3 and node 6 with weight 1,\nan edge between node 4 and node 16 with weight 1,\nan edge between node 4 and node 14 with weight 8,\nan edge between node 4 and node 17 with weight 9,\nan edge between node 4 and node 7 with weight 9,\nan edge between node 5 and node 12 with weight 1,\nan edge between node 5 and node 10 with weight 2,\nan edge between node 5 and node 8 with weight 1,\nan edge between node 5 and node 7 with weight 10,\nan edge between node 6 and node 15 with weight 8,\nan edge between node 6 and node 19 with weight 6,\nan edge between node 7 and node 16 with weight 2,\nan edge between node 8 and node 13 with weight 9,\nan edge between node 9 and node 15 with weight 9,\nan edge between node 9 and node 18 with weight 6,\nan edge between node 10 and node 19 with weight 5,\nan edge between node 10 and node 11 with weight 1,\nan edge between node 10 and node 12 with weight 10,\nan edge between node 11 and node 16 with weight 1,\nan edge between node 12 and node 15 with weight 3,\nan edge between node 14 and node 15 with weight 2,\nan edge between node 15 and node 16 with weight 5.\nQ: Give the shortest path from node 9 to node 19.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 9 to node 19 is 9,1,11,10,19 with a total weight of 15"
+  },
+  {
+    "id": "NLG_SH_58",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 19, and the edges are:\nan edge between node 0 and node 4 with weight 8,\nan edge between node 0 and node 12 with weight 5,\nan edge between node 0 and node 2 with weight 3,\nan edge between node 1 and node 14 with weight 7,\nan edge between node 1 and node 3 with weight 1,\nan edge between node 1 and node 16 with weight 4,\nan edge between node 1 and node 2 with weight 5,\nan edge between node 2 and node 8 with weight 9,\nan edge between node 2 and node 15 with weight 9,\nan edge between node 2 and node 6 with weight 4,\nan edge between node 3 and node 8 with weight 4,\nan edge between node 3 and node 6 with weight 3,\nan edge between node 3 and node 12 with weight 8,\nan edge between node 4 and node 8 with weight 7,\nan edge between node 4 and node 15 with weight 2,\nan edge between node 4 and node 18 with weight 7,\nan edge between node 4 and node 5 with weight 2,\nan edge between node 4 and node 10 with weight 9,\nan edge between node 5 and node 8 with weight 8,\nan edge between node 5 and node 7 with weight 7,\nan edge between node 5 and node 6 with weight 6,\nan edge between node 5 and node 19 with weight 6,\nan edge between node 5 and node 11 with weight 9,\nan edge between node 5 and node 13 with weight 5,\nan edge between node 6 and node 15 with weight 6,\nan edge between node 6 and node 18 with weight 9,\nan edge between node 6 and node 13 with weight 10,\nan edge between node 7 and node 8 with weight 1,\nan edge between node 7 and node 15 with weight 10,\nan edge between node 7 and node 11 with weight 9,\nan edge between node 8 and node 15 with weight 2,\nan edge between node 8 and node 12 with weight 1,\nan edge between node 8 and node 17 with weight 3,\nan edge between node 8 and node 10 with weight 4,\nan edge between node 9 and node 15 with weight 8,\nan edge between node 12 and node 19 with weight 6,\nan edge between node 13 and node 15 with weight 4,\nan edge between node 13 and node 18 with weight 3,\nan edge between node 13 and node 17 with weight 8,\nan edge between node 14 and node 15 with weight 7,\nan edge between node 15 and node 17 with weight 9.\nQ: Give the shortest path from node 14 to node 5.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 14 to node 5 is 14,15,4,5 with a total weight of 11"
+  },
+  {
+    "id": "NLG_SH_59",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "easy",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 6, and the edges are:\nan edge between node 0 and node 1 with weight 1,\nan edge between node 0 and node 6 with weight 1,\nan edge between node 0 and node 5 with weight 1,\nan edge between node 1 and node 2 with weight 3,\nan edge between node 1 and node 6 with weight 4,\nan edge between node 1 and node 5 with weight 3,\nan edge between node 2 and node 4 with weight 3,\nan edge between node 2 and node 5 with weight 2,\nan edge between node 3 and node 5 with weight 3,\nan edge between node 4 and node 5 with weight 4.\nQ: Give the shortest path from node 4 to node 0.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 4 to node 0 is 4,5,0 with a total weight of 5"
+  },
+  {
+    "id": "NLG_SH_60",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 13, and the edges are:\nan edge between node 0 and node 7 with weight 2,\nan edge between node 1 and node 4 with weight 8,\nan edge between node 1 and node 9 with weight 5,\nan edge between node 2 and node 12 with weight 5,\nan edge between node 2 and node 9 with weight 1,\nan edge between node 3 and node 6 with weight 8,\nan edge between node 4 and node 6 with weight 7,\nan edge between node 5 and node 7 with weight 7,\nan edge between node 5 and node 8 with weight 4,\nan edge between node 6 and node 11 with weight 10,\nan edge between node 6 and node 10 with weight 4,\nan edge between node 6 and node 13 with weight 2,\nan edge between node 7 and node 10 with weight 9,\nan edge between node 8 and node 10 with weight 7,\nan edge between node 8 and node 9 with weight 1,\nan edge between node 9 and node 11 with weight 1,\nan edge between node 9 and node 10 with weight 6.\nQ: Give the shortest path from node 2 to node 3.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 2 to node 3 is 2,9,10,6,3 with a total weight of 19"
+  },
+  {
+    "id": "NLG_SH_61",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 11, and the edges are:\nan edge between node 0 and node 6 with weight 7,\nan edge between node 0 and node 8 with weight 1,\nan edge between node 1 and node 5 with weight 1,\nan edge between node 2 and node 4 with weight 6,\nan edge between node 2 and node 9 with weight 1,\nan edge between node 3 and node 6 with weight 10,\nan edge between node 3 and node 7 with weight 6,\nan edge between node 3 and node 8 with weight 6,\nan edge between node 4 and node 10 with weight 7,\nan edge between node 4 and node 6 with weight 9,\nan edge between node 4 and node 7 with weight 3,\nan edge between node 4 and node 8 with weight 6,\nan edge between node 5 and node 9 with weight 10,\nan edge between node 7 and node 11 with weight 4,\nan edge between node 8 and node 9 with weight 9.\nQ: Give the shortest path from node 6 to node 11.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 6 to node 11 is 6,4,7,11 with a total weight of 16"
+  },
+  {
+    "id": "NLG_SH_62",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 19, and the edges are:\nan edge between node 0 and node 1 with weight 2,\nan edge between node 1 and node 16 with weight 9,\nan edge between node 1 and node 11 with weight 2,\nan edge between node 1 and node 6 with weight 10,\nan edge between node 1 and node 5 with weight 9,\nan edge between node 1 and node 9 with weight 6,\nan edge between node 2 and node 6 with weight 4,\nan edge between node 2 and node 7 with weight 8,\nan edge between node 2 and node 12 with weight 5,\nan edge between node 2 and node 14 with weight 4,\nan edge between node 2 and node 15 with weight 4,\nan edge between node 3 and node 18 with weight 7,\nan edge between node 3 and node 13 with weight 3,\nan edge between node 4 and node 16 with weight 5,\nan edge between node 4 and node 10 with weight 2,\nan edge between node 4 and node 17 with weight 10,\nan edge between node 5 and node 16 with weight 10,\nan edge between node 5 and node 11 with weight 1,\nan edge between node 5 and node 9 with weight 9,\nan edge between node 6 and node 17 with weight 8,\nan edge between node 6 and node 12 with weight 8,\nan edge between node 7 and node 16 with weight 6,\nan edge between node 7 and node 12 with weight 4,\nan edge between node 7 and node 14 with weight 8,\nan edge between node 7 and node 15 with weight 4,\nan edge between node 8 and node 16 with weight 1,\nan edge between node 8 and node 11 with weight 10,\nan edge between node 8 and node 13 with weight 3,\nan edge between node 10 and node 19 with weight 1,\nan edge between node 10 and node 18 with weight 6,\nan edge between node 10 and node 15 with weight 5,\nan edge between node 11 and node 19 with weight 2,\nan edge between node 11 and node 13 with weight 8,\nan edge between node 13 and node 16 with weight 8,\nan edge between node 14 and node 15 with weight 9,\nan edge between node 15 and node 16 with weight 6,\nan edge between node 16 and node 19 with weight 7,\nan edge between node 16 and node 17 with weight 9,\nan edge between node 17 and node 19 with weight 10.\nQ: Give the shortest path from node 9 to node 18.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 9 to node 18 is 9,1,11,19,10,18 with a total weight of 17"
+  },
+  {
+    "id": "NLG_SH_63",
+    "task": "shortest_path",
+    "dataset": "nlgraph",
+    "difficulty": "hard",
+    "prompt_type": "cot_hidden",
+    "question": "In an undirected graph, the nodes are numbered from 0 to 14, and the edges are:\nan edge between node 0 and node 8 with weight 1,\nan edge between node 0 and node 12 with weight 9,\nan edge between node 0 and node 5 with weight 8,\nan edge between node 0 and node 3 with weight 10,\nan edge between node 1 and node 9 with weight 1,\nan edge between node 1 and node 11 with weight 2,\nan edge between node 1 and node 7 with weight 6,\nan edge between node 2 and node 7 with weight 9,\nan edge between node 2 and node 4 with weight 1,\nan edge between node 2 and node 3 with weight 6,\nan edge between node 3 and node 8 with weight 1,\nan edge between node 3 and node 12 with weight 9,\nan edge between node 3 and node 5 with weight 5,\nan edge between node 4 and node 14 with weight 4,\nan edge between node 5 and node 11 with weight 4,\nan edge between node 5 and node 7 with weight 5,\nan edge between node 5 and node 10 with weight 2,\nan edge between node 6 and node 11 with weight 3,\nan edge between node 7 and node 10 with weight 4,\nan edge between node 7 and node 14 with weight 3,\nan edge between node 9 and node 10 with weight 4,\nan edge between node 10 and node 12 with weight 7,\nan edge between node 10 and node 14 with weight 5,\nan edge between node 10 and node 13 with weight 9,\nan edge between node 12 and node 14 with weight 6.\nQ: Give the shortest path from node 6 to node 4.\nA:\n\nThink step by step to solve this problem (internal reasoning), then provide only the final answer.",
+    "ground_truth": "The shortest path from node 6 to node 4 is 6,11,1,7,14,4 with a total weight of 18"
+  }
+]

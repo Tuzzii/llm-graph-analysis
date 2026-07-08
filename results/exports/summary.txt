@@ -1,0 +1,61 @@
+================================================================================
+NLGraph Evaluation Summary
+================================================================================
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total Experiments: 36
+Total Prompts: 5253
+Average Accuracy: 22.3%
+Best Accuracy: 69.3%
+Worst Accuracy: 0.0%
+
+PERFORMANCE BY MODEL
+--------------------------------------------------------------------------------
+llama3.2-1b: 21.1% average
+  bipartite_matching: 6.3%
+  connectivity: 49.5%
+  maximum_flow: 2.3%
+  shortest_path: 26.3%
+
+phi3-medium: 22.9% average
+  bipartite_matching: 6.7%
+  connectivity: 67.5%
+  maximum_flow: 1.7%
+  shortest_path: 15.6%
+
+qwen2.5-3b: 23.0% average
+  bipartite_matching: 9.1%
+  connectivity: 62.5%
+  maximum_flow: 4.0%
+  shortest_path: 16.1%
+
+PERFORMANCE BY TASK
+--------------------------------------------------------------------------------
+bipartite_matching: 7.4% average
+  llama3.2-1b: 6.3%
+  phi3-medium: 6.7%
+  qwen2.5-3b: 9.1%
+
+connectivity: 59.8% average
+  llama3.2-1b: 49.5%
+  phi3-medium: 67.5%
+  qwen2.5-3b: 62.5%
+
+maximum_flow: 2.7% average
+  llama3.2-1b: 2.3%
+  phi3-medium: 1.7%
+  qwen2.5-3b: 4.0%
+
+shortest_path: 19.3% average
+  llama3.2-1b: 26.3%
+  phi3-medium: 15.6%
+  qwen2.5-3b: 16.1%
+
+TOP 5 BEST COMBINATIONS
+--------------------------------------------------------------------------------
+1. phi3-medium / connectivity / zero_shot: 69.3%
+2. phi3-medium / connectivity / cot_hidden: 68.2%
+3. phi3-medium / connectivity / cot: 65.0%
+4. qwen2.5-3b / connectivity / cot: 64.7%
+5. qwen2.5-3b / connectivity / cot_hidden: 63.3%
